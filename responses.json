@@ -1,0 +1,3254 @@
+{
+  "intents": [
+    {
+      "tag": "fitness_goal",
+      "patterns": [
+        "What are your fitness goals?",
+        "Tell me about fitness goals",
+        "I want to know about fitness goals",
+        "Can you help me with fitness goals?"
+      ],
+      "responses": [
+        "Set a clear goal such as fat loss, muscle gain, strength, endurance, or general fitness.",
+        "Sure. Set a clear goal such as fat loss, muscle gain, strength, endurance, or general fitness."
+      ]
+    },
+    {
+      "tag": "workout_beginner",
+      "patterns": [
+        "What workout should a beginner do?",
+        "Tell me about beginner workouts",
+        "I want to know about beginner workouts",
+        "Can you help me with beginner workouts?"
+      ],
+      "responses": [
+        "Start with simple full-body exercises and gradually increase difficulty.",
+        "Sure. Start with simple full-body exercises and gradually increase difficulty."
+      ]
+    },
+    {
+      "tag": "workout_home",
+      "patterns": [
+        "Can I work out at home?",
+        "Tell me about home workouts",
+        "I want to know about home workouts",
+        "Can you help me with home workouts?"
+      ],
+      "responses": [
+        "Yes. Bodyweight exercises such as squats, push-ups, lunges, and planks can build a solid routine.",
+        "Sure. Yes. Bodyweight exercises such as squats, push-ups, lunges, and planks can build a solid routine."
+      ]
+    },
+    {
+      "tag": "workout_gym",
+      "patterns": [
+        "What should I do at the gym?",
+        "Tell me about gym workouts",
+        "I want to know about gym workouts",
+        "Can you help me with gym workouts?"
+      ],
+      "responses": [
+        "A balanced gym routine can combine strength training, cardio, mobility, and recovery.",
+        "Sure. A balanced gym routine can combine strength training, cardio, mobility, and recovery."
+      ]
+    },
+    {
+      "tag": "strength_training",
+      "patterns": [
+        "How do I start strength training?",
+        "Tell me about strength training",
+        "I want to know about strength training",
+        "Can you help me with strength training?"
+      ],
+      "responses": [
+        "Begin with controlled movements, manageable resistance, and consistent progressive overload.",
+        "Sure. Begin with controlled movements, manageable resistance, and consistent progressive overload."
+      ]
+    },
+    {
+      "tag": "muscle_gain",
+      "patterns": [
+        "How can I build muscle?",
+        "Tell me about muscle gain",
+        "I want to know about muscle gain",
+        "Can you help me with muscle gain?"
+      ],
+      "responses": [
+        "Combine resistance training, adequate protein, enough calories, and sufficient recovery.",
+        "Sure. Combine resistance training, adequate protein, enough calories, and sufficient recovery."
+      ]
+    },
+    {
+      "tag": "fat_loss",
+      "patterns": [
+        "How can I lose body fat?",
+        "Tell me about fat loss",
+        "I want to know about fat loss",
+        "Can you help me with fat loss?"
+      ],
+      "responses": [
+        "A sustainable calorie deficit combined with strength training and regular activity is a good foundation.",
+        "Sure. A sustainable calorie deficit combined with strength training and regular activity is a good foundation."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How can I lose weight safely?",
+        "Tell me about weight loss",
+        "I want to know about weight loss",
+        "Can you help me with weight loss?"
+      ],
+      "responses": [
+        "Focus on sustainable eating habits, regular exercise, sleep, and gradual progress.",
+        "Sure. Focus on sustainable eating habits, regular exercise, sleep, and gradual progress."
+      ]
+    },
+    {
+      "tag": "weight_gain",
+      "patterns": [
+        "How can I gain weight healthily?",
+        "Tell me about healthy weight gain",
+        "I want to know about healthy weight gain",
+        "Can you help me with healthy weight gain?"
+      ],
+      "responses": [
+        "Increase nutrient-dense calories while using resistance training to support muscle gain.",
+        "Sure. Increase nutrient-dense calories while using resistance training to support muscle gain."
+      ]
+    },
+    {
+      "tag": "cardio",
+      "patterns": [
+        "How much cardio should I do?",
+        "Tell me about cardio",
+        "I want to know about cardio",
+        "Can you help me with cardio?"
+      ],
+      "responses": [
+        "Choose cardio you enjoy and build duration and intensity gradually based on your fitness level.",
+        "Sure. Choose cardio you enjoy and build duration and intensity gradually based on your fitness level."
+      ]
+    },
+    {
+      "tag": "running",
+      "patterns": [
+        "How do I start running?",
+        "Tell me about running",
+        "I want to know about running",
+        "Can you help me with running?"
+      ],
+      "responses": [
+        "Start with easy run-walk sessions and increase total running volume gradually.",
+        "Sure. Start with easy run-walk sessions and increase total running volume gradually."
+      ]
+    },
+    {
+      "tag": "walking",
+      "patterns": [
+        "Is walking good for fitness?",
+        "Tell me about walking",
+        "I want to know about walking",
+        "Can you help me with walking?"
+      ],
+      "responses": [
+        "Yes. Regular brisk walking supports cardiovascular health, activity levels, and weight management.",
+        "Sure. Yes. Regular brisk walking supports cardiovascular health, activity levels, and weight management."
+      ]
+    },
+    {
+      "tag": "cycling",
+      "patterns": [
+        "Is cycling a good workout?",
+        "Tell me about cycling",
+        "I want to know about cycling",
+        "Can you help me with cycling?"
+      ],
+      "responses": [
+        "Cycling is an effective low-impact cardiovascular activity that can improve endurance.",
+        "Sure. Cycling is an effective low-impact cardiovascular activity that can improve endurance."
+      ]
+    },
+    {
+      "tag": "swimming",
+      "patterns": [
+        "Is swimming good for fitness?",
+        "Tell me about swimming",
+        "I want to know about swimming",
+        "Can you help me with swimming?"
+      ],
+      "responses": [
+        "Swimming provides cardiovascular conditioning and full-body muscular involvement with low joint impact.",
+        "Sure. Swimming provides cardiovascular conditioning and full-body muscular involvement with low joint impact."
+      ]
+    },
+    {
+      "tag": "hiit",
+      "patterns": [
+        "What is HIIT?",
+        "Tell me about HIIT",
+        "I want to know about HIIT",
+        "Can you help me with HIIT?"
+      ],
+      "responses": [
+        "HIIT alternates short periods of high effort with recovery periods and should be progressed gradually.",
+        "Sure. HIIT alternates short periods of high effort with recovery periods and should be progressed gradually."
+      ]
+    },
+    {
+      "tag": "tabata",
+      "patterns": [
+        "What is Tabata training?",
+        "Tell me about Tabata",
+        "I want to know about Tabata",
+        "Can you help me with Tabata?"
+      ],
+      "responses": [
+        "Tabata is a structured interval format using short work and recovery periods.",
+        "Sure. Tabata is a structured interval format using short work and recovery periods."
+      ]
+    },
+    {
+      "tag": "warmup",
+      "patterns": [
+        "Why should I warm up?",
+        "Tell me about warm-up",
+        "I want to know about warm-up",
+        "Can you help me with warm-up?"
+      ],
+      "responses": [
+        "A warm-up gradually raises body temperature and prepares your body for the upcoming activity.",
+        "Sure. A warm-up gradually raises body temperature and prepares your body for the upcoming activity."
+      ]
+    },
+    {
+      "tag": "cooldown",
+      "patterns": [
+        "Why should I cool down?",
+        "Tell me about cool-down",
+        "I want to know about cool-down",
+        "Can you help me with cool-down?"
+      ],
+      "responses": [
+        "A gradual cool-down helps transition your body toward its resting state after exercise.",
+        "Sure. A gradual cool-down helps transition your body toward its resting state after exercise."
+      ]
+    },
+    {
+      "tag": "stretching",
+      "patterns": [
+        "Should I stretch before exercise?",
+        "Tell me about stretching",
+        "I want to know about stretching",
+        "Can you help me with stretching?"
+      ],
+      "responses": [
+        "Use dynamic movements before training and save longer static stretches for after training or separate mobility sessions.",
+        "Sure. Use dynamic movements before training and save longer static stretches for after training or separate mobility sessions."
+      ]
+    },
+    {
+      "tag": "mobility",
+      "patterns": [
+        "How can I improve mobility?",
+        "Tell me about mobility",
+        "I want to know about mobility",
+        "Can you help me with mobility?"
+      ],
+      "responses": [
+        "Practice controlled mobility exercises consistently and work within a comfortable range of motion.",
+        "Sure. Practice controlled mobility exercises consistently and work within a comfortable range of motion."
+      ]
+    },
+    {
+      "tag": "flexibility",
+      "patterns": [
+        "How can I become more flexible?",
+        "Tell me about flexibility",
+        "I want to know about flexibility",
+        "Can you help me with flexibility?"
+      ],
+      "responses": [
+        "Regular stretching and mobility work can gradually improve flexibility.",
+        "Sure. Regular stretching and mobility work can gradually improve flexibility."
+      ]
+    },
+    {
+      "tag": "recovery",
+      "patterns": [
+        "How important is recovery?",
+        "Tell me about recovery",
+        "I want to know about recovery",
+        "Can you help me with recovery?"
+      ],
+      "responses": [
+        "Recovery allows your body to adapt to training and helps you maintain consistent performance.",
+        "Sure. Recovery allows your body to adapt to training and helps you maintain consistent performance."
+      ]
+    },
+    {
+      "tag": "rest_day",
+      "patterns": [
+        "Do I need rest days?",
+        "Tell me about rest days",
+        "I want to know about rest days",
+        "Can you help me with rest days?"
+      ],
+      "responses": [
+        "Rest days or easier sessions can help manage fatigue and support recovery.",
+        "Sure. Rest days or easier sessions can help manage fatigue and support recovery."
+      ]
+    },
+    {
+      "tag": "sleep_fitness",
+      "patterns": [
+        "How does sleep affect fitness?",
+        "Tell me about sleep and fitness",
+        "I want to know about sleep and fitness",
+        "Can you help me with sleep and fitness?"
+      ],
+      "responses": [
+        "Adequate sleep supports recovery, energy, training performance, and overall health.",
+        "Sure. Adequate sleep supports recovery, energy, training performance, and overall health."
+      ]
+    },
+    {
+      "tag": "hydration",
+      "patterns": [
+        "How much water should I drink?",
+        "Tell me about hydration",
+        "I want to know about hydration",
+        "Can you help me with hydration?"
+      ],
+      "responses": [
+        "Hydration needs vary with body size, climate, diet, and activity; drink regularly and increase intake around sweaty exercise.",
+        "Sure. Hydration needs vary with body size, climate, diet, and activity; drink regularly and increase intake around sweaty exercise."
+      ]
+    },
+    {
+      "tag": "protein",
+      "patterns": [
+        "Why is protein important?",
+        "Tell me about protein",
+        "I want to know about protein",
+        "Can you help me with protein?"
+      ],
+      "responses": [
+        "Protein provides amino acids needed for muscle repair and many other functions in the body.",
+        "Sure. Protein provides amino acids needed for muscle repair and many other functions in the body."
+      ]
+    },
+    {
+      "tag": "carbohydrates",
+      "patterns": [
+        "Are carbohydrates important for workouts?",
+        "Tell me about carbohydrates",
+        "I want to know about carbohydrates",
+        "Can you help me with carbohydrates?"
+      ],
+      "responses": [
+        "Carbohydrates can provide useful fuel for many forms of exercise, especially higher-intensity training.",
+        "Sure. Carbohydrates can provide useful fuel for many forms of exercise, especially higher-intensity training."
+      ]
+    },
+    {
+      "tag": "healthy_fats",
+      "patterns": [
+        "Are fats important in a fitness diet?",
+        "Tell me about healthy fats",
+        "I want to know about healthy fats",
+        "Can you help me with healthy fats?"
+      ],
+      "responses": [
+        "Dietary fats support energy needs and essential body functions, so include varied sources in a balanced diet.",
+        "Sure. Dietary fats support energy needs and essential body functions, so include varied sources in a balanced diet."
+      ]
+    },
+    {
+      "tag": "fiber",
+      "patterns": [
+        "Why is fiber important?",
+        "Tell me about fiber",
+        "I want to know about fiber",
+        "Can you help me with fiber?"
+      ],
+      "responses": [
+        "Fiber supports digestive health and can improve fullness as part of a balanced diet.",
+        "Sure. Fiber supports digestive health and can improve fullness as part of a balanced diet."
+      ]
+    },
+    {
+      "tag": "preworkout_meal",
+      "patterns": [
+        "What should I eat before a workout?",
+        "Tell me about pre-workout meals",
+        "I want to know about pre-workout meals",
+        "Can you help me with pre-workout meals?"
+      ],
+      "responses": [
+        "Choose a meal or snack you digest comfortably, often emphasizing carbohydrates with some protein.",
+        "Sure. Choose a meal or snack you digest comfortably, often emphasizing carbohydrates with some protein."
+      ]
+    },
+    {
+      "tag": "postworkout_meal",
+      "patterns": [
+        "What should I eat after a workout?",
+        "Tell me about post-workout meals",
+        "I want to know about post-workout meals",
+        "Can you help me with post-workout meals?"
+      ],
+      "responses": [
+        "A balanced meal containing protein and carbohydrates can support recovery.",
+        "Sure. A balanced meal containing protein and carbohydrates can support recovery."
+      ]
+    },
+    {
+      "tag": "breakfast_fitness",
+      "patterns": [
+        "What is a good fitness breakfast?",
+        "Tell me about fitness breakfast",
+        "I want to know about fitness breakfast",
+        "Can you help me with fitness breakfast?"
+      ],
+      "responses": [
+        "Choose a balanced breakfast with protein, carbohydrates, fruit or vegetables, and healthy fats as appropriate.",
+        "Sure. Choose a balanced breakfast with protein, carbohydrates, fruit or vegetables, and healthy fats as appropriate."
+      ]
+    },
+    {
+      "tag": "healthy_snacks",
+      "patterns": [
+        "What are good fitness snacks?",
+        "Tell me about healthy snacks",
+        "I want to know about healthy snacks",
+        "Can you help me with healthy snacks?"
+      ],
+      "responses": [
+        "Fruit, yogurt, eggs, nuts, or simple whole-food combinations can make convenient balanced snacks.",
+        "Sure. Fruit, yogurt, eggs, nuts, or simple whole-food combinations can make convenient balanced snacks."
+      ]
+    },
+    {
+      "tag": "meal_planning",
+      "patterns": [
+        "How can I plan fitness meals?",
+        "Tell me about meal planning",
+        "I want to know about meal planning",
+        "Can you help me with meal planning?"
+      ],
+      "responses": [
+        "Plan protein sources, vegetables or fruit, carbohydrates, healthy fats, and convenient portions around your schedule.",
+        "Sure. Plan protein sources, vegetables or fruit, carbohydrates, healthy fats, and convenient portions around your schedule."
+      ]
+    },
+    {
+      "tag": "calorie_deficit",
+      "patterns": [
+        "What is a calorie deficit?",
+        "Tell me about calorie deficit",
+        "I want to know about calorie deficit",
+        "Can you help me with calorie deficit?"
+      ],
+      "responses": [
+        "A calorie deficit means consuming fewer calories than your body uses over time.",
+        "Sure. A calorie deficit means consuming fewer calories than your body uses over time."
+      ]
+    },
+    {
+      "tag": "calorie_surplus",
+      "patterns": [
+        "What is a calorie surplus?",
+        "Tell me about calorie surplus",
+        "I want to know about calorie surplus",
+        "Can you help me with calorie surplus?"
+      ],
+      "responses": [
+        "A calorie surplus means consuming more calories than your body uses over time.",
+        "Sure. A calorie surplus means consuming more calories than your body uses over time."
+      ]
+    },
+    {
+      "tag": "maintenance_calories",
+      "patterns": [
+        "What are maintenance calories?",
+        "Tell me about maintenance calories",
+        "I want to know about maintenance calories",
+        "Can you help me with maintenance calories?"
+      ],
+      "responses": [
+        "Maintenance calories are the approximate energy intake that maintains body weight over time.",
+        "Sure. Maintenance calories are the approximate energy intake that maintains body weight over time."
+      ]
+    },
+    {
+      "tag": "bmi",
+      "patterns": [
+        "What is BMI?",
+        "Tell me about BMI",
+        "I want to know about BMI",
+        "Can you help me with BMI?"
+      ],
+      "responses": [
+        "BMI is a screening measure based on height and weight; it does not directly measure body fat or fitness.",
+        "Sure. BMI is a screening measure based on height and weight; it does not directly measure body fat or fitness."
+      ]
+    },
+    {
+      "tag": "body_fat",
+      "patterns": [
+        "How is body fat measured?",
+        "Tell me about body fat",
+        "I want to know about body fat",
+        "Can you help me with body fat?"
+      ],
+      "responses": [
+        "Body fat can be estimated using methods such as skinfolds, bioimpedance, or imaging, each with limitations.",
+        "Sure. Body fat can be estimated using methods such as skinfolds, bioimpedance, or imaging, each with limitations."
+      ]
+    },
+    {
+      "tag": "progress_tracking",
+      "patterns": [
+        "How should I track fitness progress?",
+        "Tell me about progress tracking",
+        "I want to know about progress tracking",
+        "Can you help me with progress tracking?"
+      ],
+      "responses": [
+        "Track relevant measures such as performance, body measurements, habits, and how you feel over time.",
+        "Sure. Track relevant measures such as performance, body measurements, habits, and how you feel over time."
+      ]
+    },
+    {
+      "tag": "workout_log",
+      "patterns": [
+        "Should I keep a workout log?",
+        "Tell me about workout logs",
+        "I want to know about workout logs",
+        "Can you help me with workout logs?"
+      ],
+      "responses": [
+        "Yes. Recording exercises, sets, repetitions, resistance, and effort can make progression easier to manage.",
+        "Sure. Yes. Recording exercises, sets, repetitions, resistance, and effort can make progression easier to manage."
+      ]
+    },
+    {
+      "tag": "progressive_overload",
+      "patterns": [
+        "What is progressive overload?",
+        "Tell me about progressive overload",
+        "I want to know about progressive overload",
+        "Can you help me with progressive overload?"
+      ],
+      "responses": [
+        "It means gradually increasing training demands so your body has a reason to adapt.",
+        "Sure. It means gradually increasing training demands so your body has a reason to adapt."
+      ]
+    },
+    {
+      "tag": "reps",
+      "patterns": [
+        "How many reps should I do?",
+        "Tell me about repetitions",
+        "I want to know about repetitions",
+        "Can you help me with repetitions?"
+      ],
+      "responses": [
+        "The appropriate repetition range depends on the exercise and goal; prioritize good technique and progressive training.",
+        "Sure. The appropriate repetition range depends on the exercise and goal; prioritize good technique and progressive training."
+      ]
+    },
+    {
+      "tag": "sets",
+      "patterns": [
+        "How many sets should I do?",
+        "Tell me about sets",
+        "I want to know about sets",
+        "Can you help me with sets?"
+      ],
+      "responses": [
+        "Set volume depends on your experience, exercise selection, goal, and recovery capacity.",
+        "Sure. Set volume depends on your experience, exercise selection, goal, and recovery capacity."
+      ]
+    },
+    {
+      "tag": "rest_between_sets",
+      "patterns": [
+        "How long should I rest between sets?",
+        "Tell me about rest between sets",
+        "I want to know about rest between sets",
+        "Can you help me with rest between sets?"
+      ],
+      "responses": [
+        "Rest longer when you need more recovery for demanding strength sets and less for lighter conditioning work.",
+        "Sure. Rest longer when you need more recovery for demanding strength sets and less for lighter conditioning work."
+      ]
+    },
+    {
+      "tag": "training_frequency",
+      "patterns": [
+        "How often should I train?",
+        "Tell me about training frequency",
+        "I want to know about training frequency",
+        "Can you help me with training frequency?"
+      ],
+      "responses": [
+        "Choose a frequency that lets you train consistently while recovering adequately.",
+        "Sure. Choose a frequency that lets you train consistently while recovering adequately."
+      ]
+    },
+    {
+      "tag": "full_body",
+      "patterns": [
+        "What is a full-body workout?",
+        "Tell me about full-body workouts",
+        "I want to know about full-body workouts",
+        "Can you help me with full-body workouts?"
+      ],
+      "responses": [
+        "A full-body session trains major movement patterns or muscle groups in the same workout.",
+        "Sure. A full-body session trains major movement patterns or muscle groups in the same workout."
+      ]
+    },
+    {
+      "tag": "upper_body",
+      "patterns": [
+        "What is an upper-body workout?",
+        "Tell me about upper-body workouts",
+        "I want to know about upper-body workouts",
+        "Can you help me with upper-body workouts?"
+      ],
+      "responses": [
+        "Upper-body training commonly includes pushing and pulling movements for the chest, back, shoulders, and arms.",
+        "Sure. Upper-body training commonly includes pushing and pulling movements for the chest, back, shoulders, and arms."
+      ]
+    },
+    {
+      "tag": "lower_body",
+      "patterns": [
+        "What is a lower-body workout?",
+        "Tell me about lower-body workouts",
+        "I want to know about lower-body workouts",
+        "Can you help me with lower-body workouts?"
+      ],
+      "responses": [
+        "Lower-body training can include squat, hinge, lunge, and calf-focused movements.",
+        "Sure. Lower-body training can include squat, hinge, lunge, and calf-focused movements."
+      ]
+    },
+    {
+      "tag": "push_pull_legs",
+      "patterns": [
+        "What is a push-pull-legs split?",
+        "Tell me about push-pull-legs",
+        "I want to know about push-pull-legs",
+        "Can you help me with push-pull-legs?"
+      ],
+      "responses": [
+        "It organizes training into pushing muscles, pulling muscles, and legs across separate sessions.",
+        "Sure. It organizes training into pushing muscles, pulling muscles, and legs across separate sessions."
+      ]
+    },
+    {
+      "tag": "chest_workout",
+      "patterns": [
+        "How can I train my chest?",
+        "Tell me about chest workouts",
+        "I want to know about chest workouts",
+        "Can you help me with chest workouts?"
+      ],
+      "responses": [
+        "Pressing and fly-style movements can train the chest; use controlled technique and appropriate resistance.",
+        "Sure. Pressing and fly-style movements can train the chest; use controlled technique and appropriate resistance."
+      ]
+    },
+    {
+      "tag": "back_workout",
+      "patterns": [
+        "How can I train my back?",
+        "Tell me about back workouts",
+        "I want to know about back workouts",
+        "Can you help me with back workouts?"
+      ],
+      "responses": [
+        "Rows, pulldowns, pull-ups, and related movements can train different back muscles.",
+        "Sure. Rows, pulldowns, pull-ups, and related movements can train different back muscles."
+      ]
+    },
+    {
+      "tag": "shoulder_workout",
+      "patterns": [
+        "How can I train my shoulders?",
+        "Tell me about shoulder workouts",
+        "I want to know about shoulder workouts",
+        "Can you help me with shoulder workouts?"
+      ],
+      "responses": [
+        "Overhead pressing and controlled raise variations can train the major shoulder muscles.",
+        "Sure. Overhead pressing and controlled raise variations can train the major shoulder muscles."
+      ]
+    },
+    {
+      "tag": "biceps",
+      "patterns": [
+        "How do I train my biceps?",
+        "Tell me about biceps training",
+        "I want to know about biceps training",
+        "Can you help me with biceps training?"
+      ],
+      "responses": [
+        "Curl variations and pulling exercises can train the biceps.",
+        "Sure. Curl variations and pulling exercises can train the biceps."
+      ]
+    },
+    {
+      "tag": "triceps",
+      "patterns": [
+        "How do I train my triceps?",
+        "Tell me about triceps training",
+        "I want to know about triceps training",
+        "Can you help me with triceps training?"
+      ],
+      "responses": [
+        "Pressing movements and triceps-focused extensions can train the triceps.",
+        "Sure. Pressing movements and triceps-focused extensions can train the triceps."
+      ]
+    },
+    {
+      "tag": "quadriceps",
+      "patterns": [
+        "How do I train my quads?",
+        "Tell me about quadriceps training",
+        "I want to know about quadriceps training",
+        "Can you help me with quadriceps training?"
+      ],
+      "responses": [
+        "Squat, lunge, split-squat, and leg-extension patterns can train the quadriceps.",
+        "Sure. Squat, lunge, split-squat, and leg-extension patterns can train the quadriceps."
+      ]
+    },
+    {
+      "tag": "hamstrings",
+      "patterns": [
+        "How do I train my hamstrings?",
+        "Tell me about hamstring training",
+        "I want to know about hamstring training",
+        "Can you help me with hamstring training?"
+      ],
+      "responses": [
+        "Hinge patterns, leg curls, and related exercises can target the hamstrings.",
+        "Sure. Hinge patterns, leg curls, and related exercises can target the hamstrings."
+      ]
+    },
+    {
+      "tag": "glutes",
+      "patterns": [
+        "How do I train my glutes?",
+        "Tell me about glute training",
+        "I want to know about glute training",
+        "Can you help me with glute training?"
+      ],
+      "responses": [
+        "Squats, hinges, lunges, bridges, and hip-thrust variations can train the glutes.",
+        "Sure. Squats, hinges, lunges, bridges, and hip-thrust variations can train the glutes."
+      ]
+    },
+    {
+      "tag": "calves",
+      "patterns": [
+        "How do I train my calves?",
+        "Tell me about calf training",
+        "I want to know about calf training",
+        "Can you help me with calf training?"
+      ],
+      "responses": [
+        "Standing and seated calf-raise variations can train the calf muscles.",
+        "Sure. Standing and seated calf-raise variations can train the calf muscles."
+      ]
+    },
+    {
+      "tag": "core",
+      "patterns": [
+        "How should I train my core?",
+        "Tell me about core training",
+        "I want to know about core training",
+        "Can you help me with core training?"
+      ],
+      "responses": [
+        "Use a mixture of anti-extension, anti-rotation, flexion, and stability exercises.",
+        "Sure. Use a mixture of anti-extension, anti-rotation, flexion, and stability exercises."
+      ]
+    },
+    {
+      "tag": "abs",
+      "patterns": [
+        "How can I train my abs?",
+        "Tell me about ab training",
+        "I want to know about ab training",
+        "Can you help me with ab training?"
+      ],
+      "responses": [
+        "Combine progressive abdominal exercises with overall strength training and good nutrition.",
+        "Sure. Combine progressive abdominal exercises with overall strength training and good nutrition."
+      ]
+    },
+    {
+      "tag": "obliques",
+      "patterns": [
+        "How do I train my obliques?",
+        "Tell me about oblique training",
+        "I want to know about oblique training",
+        "Can you help me with oblique training?"
+      ],
+      "responses": [
+        "Side planks, carries, and controlled rotational or anti-rotational exercises can train the obliques.",
+        "Sure. Side planks, carries, and controlled rotational or anti-rotational exercises can train the obliques."
+      ]
+    },
+    {
+      "tag": "plank",
+      "patterns": [
+        "How do I do a plank?",
+        "Tell me about planks",
+        "I want to know about planks",
+        "Can you help me with planks?"
+      ],
+      "responses": [
+        "Keep your body aligned, brace your core, and maintain controlled breathing without letting your hips sag.",
+        "Sure. Keep your body aligned, brace your core, and maintain controlled breathing without letting your hips sag."
+      ]
+    },
+    {
+      "tag": "pushups",
+      "patterns": [
+        "How can I improve my push-ups?",
+        "Tell me about push-ups",
+        "I want to know about push-ups",
+        "Can you help me with push-ups?"
+      ],
+      "responses": [
+        "Practice consistent technique and progress from an easier variation toward more repetitions or harder variations.",
+        "Sure. Practice consistent technique and progress from an easier variation toward more repetitions or harder variations."
+      ]
+    },
+    {
+      "tag": "squats",
+      "patterns": [
+        "How do I perform a squat?",
+        "Tell me about squats",
+        "I want to know about squats",
+        "Can you help me with squats?"
+      ],
+      "responses": [
+        "Keep your feet stable, brace your trunk, control the descent, and stand through the floor while maintaining comfortable alignment.",
+        "Sure. Keep your feet stable, brace your trunk, control the descent, and stand through the floor while maintaining comfortable alignment."
+      ]
+    },
+    {
+      "tag": "lunges",
+      "patterns": [
+        "How do I do lunges?",
+        "Tell me about lunges",
+        "I want to know about lunges",
+        "Can you help me with lunges?"
+      ],
+      "responses": [
+        "Take a controlled step, lower under control, and drive back to the starting position while maintaining balance.",
+        "Sure. Take a controlled step, lower under control, and drive back to the starting position while maintaining balance."
+      ]
+    },
+    {
+      "tag": "deadlift",
+      "patterns": [
+        "What is a deadlift?",
+        "Tell me about deadlifts",
+        "I want to know about deadlifts",
+        "Can you help me with deadlifts?"
+      ],
+      "responses": [
+        "A deadlift is a hip-hinge strength movement that trains the posterior chain when performed with sound technique.",
+        "Sure. A deadlift is a hip-hinge strength movement that trains the posterior chain when performed with sound technique."
+      ]
+    },
+    {
+      "tag": "bench_press",
+      "patterns": [
+        "What muscles does bench press train?",
+        "Tell me about bench press",
+        "I want to know about bench press",
+        "Can you help me with bench press?"
+      ],
+      "responses": [
+        "The bench press primarily trains the chest, triceps, and front shoulders.",
+        "Sure. The bench press primarily trains the chest, triceps, and front shoulders."
+      ]
+    },
+    {
+      "tag": "overhead_press",
+      "patterns": [
+        "What is an overhead press?",
+        "Tell me about overhead press",
+        "I want to know about overhead press",
+        "Can you help me with overhead press?"
+      ],
+      "responses": [
+        "It is a pressing movement that primarily trains the shoulders and triceps.",
+        "Sure. It is a pressing movement that primarily trains the shoulders and triceps."
+      ]
+    },
+    {
+      "tag": "pullups",
+      "patterns": [
+        "How can I improve pull-ups?",
+        "Tell me about pull-ups",
+        "I want to know about pull-ups",
+        "Can you help me with pull-ups?"
+      ],
+      "responses": [
+        "Build pulling strength with assisted pull-ups, rows, pulldowns, and gradual practice.",
+        "Sure. Build pulling strength with assisted pull-ups, rows, pulldowns, and gradual practice."
+      ]
+    },
+    {
+      "tag": "rows",
+      "patterns": [
+        "What are rowing exercises?",
+        "Tell me about rowing exercises",
+        "I want to know about rowing exercises",
+        "Can you help me with rowing exercises?"
+      ],
+      "responses": [
+        "Rows are pulling movements that train the back and involve the arms and rear shoulders.",
+        "Sure. Rows are pulling movements that train the back and involve the arms and rear shoulders."
+      ]
+    },
+    {
+      "tag": "lat_pulldown",
+      "patterns": [
+        "What is a lat pulldown?",
+        "Tell me about lat pulldowns",
+        "I want to know about lat pulldowns",
+        "Can you help me with lat pulldowns?"
+      ],
+      "responses": [
+        "A lat pulldown is a vertical pulling exercise commonly used to train the lat muscles and upper back.",
+        "Sure. A lat pulldown is a vertical pulling exercise commonly used to train the lat muscles and upper back."
+      ]
+    },
+    {
+      "tag": "leg_press",
+      "patterns": [
+        "Is the leg press useful?",
+        "Tell me about leg press",
+        "I want to know about leg press",
+        "Can you help me with leg press?"
+      ],
+      "responses": [
+        "Yes. The leg press can train the lower body while providing external support for the torso.",
+        "Sure. Yes. The leg press can train the lower body while providing external support for the torso."
+      ]
+    },
+    {
+      "tag": "leg_curl",
+      "patterns": [
+        "What do leg curls train?",
+        "Tell me about leg curls",
+        "I want to know about leg curls",
+        "Can you help me with leg curls?"
+      ],
+      "responses": [
+        "Leg curls primarily train the hamstrings.",
+        "Sure. Leg curls primarily train the hamstrings."
+      ]
+    },
+    {
+      "tag": "leg_extension",
+      "patterns": [
+        "What do leg extensions train?",
+        "Tell me about leg extensions",
+        "I want to know about leg extensions",
+        "Can you help me with leg extensions?"
+      ],
+      "responses": [
+        "Leg extensions primarily target the quadriceps.",
+        "Sure. Leg extensions primarily target the quadriceps."
+      ]
+    },
+    {
+      "tag": "hip_thrust",
+      "patterns": [
+        "What do hip thrusts train?",
+        "Tell me about hip thrusts",
+        "I want to know about hip thrusts",
+        "Can you help me with hip thrusts?"
+      ],
+      "responses": [
+        "Hip thrusts emphasize hip extension and can strongly train the glutes.",
+        "Sure. Hip thrusts emphasize hip extension and can strongly train the glutes."
+      ]
+    },
+    {
+      "tag": "calf_raise",
+      "patterns": [
+        "How do calf raises work?",
+        "Tell me about calf raises",
+        "I want to know about calf raises",
+        "Can you help me with calf raises?"
+      ],
+      "responses": [
+        "Calf raises train the calf muscles through repeated ankle plantarflexion.",
+        "Sure. Calf raises train the calf muscles through repeated ankle plantarflexion."
+      ]
+    },
+    {
+      "tag": "dumbbells",
+      "patterns": [
+        "Why use dumbbells?",
+        "Tell me about dumbbell training",
+        "I want to know about dumbbell training",
+        "Can you help me with dumbbell training?"
+      ],
+      "responses": [
+        "Dumbbells allow unilateral and bilateral movements and can be useful for strength and muscle training.",
+        "Sure. Dumbbells allow unilateral and bilateral movements and can be useful for strength and muscle training."
+      ]
+    },
+    {
+      "tag": "barbells",
+      "patterns": [
+        "Why use barbells?",
+        "Tell me about barbell training",
+        "I want to know about barbell training",
+        "Can you help me with barbell training?"
+      ],
+      "responses": [
+        "Barbells allow substantial loading and are useful for many compound strength exercises.",
+        "Sure. Barbells allow substantial loading and are useful for many compound strength exercises."
+      ]
+    },
+    {
+      "tag": "resistance_bands",
+      "patterns": [
+        "Are resistance bands effective?",
+        "Tell me about resistance bands",
+        "I want to know about resistance bands",
+        "Can you help me with resistance bands?"
+      ],
+      "responses": [
+        "Yes. Bands can provide useful resistance for strength and mobility exercises when used appropriately.",
+        "Sure. Yes. Bands can provide useful resistance for strength and mobility exercises when used appropriately."
+      ]
+    },
+    {
+      "tag": "kettlebells",
+      "patterns": [
+        "What are kettlebells good for?",
+        "Tell me about kettlebell training",
+        "I want to know about kettlebell training",
+        "Can you help me with kettlebell training?"
+      ],
+      "responses": [
+        "Kettlebells can be used for strength, conditioning, carries, and power-oriented movements.",
+        "Sure. Kettlebells can be used for strength, conditioning, carries, and power-oriented movements."
+      ]
+    },
+    {
+      "tag": "machines",
+      "patterns": [
+        "Are gym machines useful?",
+        "Tell me about gym machines",
+        "I want to know about gym machines",
+        "Can you help me with gym machines?"
+      ],
+      "responses": [
+        "Yes. Machines can provide stable resistance and make it easier to target specific movement patterns.",
+        "Sure. Yes. Machines can provide stable resistance and make it easier to target specific movement patterns."
+      ]
+    },
+    {
+      "tag": "bodyweight",
+      "patterns": [
+        "Can bodyweight exercises build strength?",
+        "Tell me about bodyweight training",
+        "I want to know about bodyweight training",
+        "Can you help me with bodyweight training?"
+      ],
+      "responses": [
+        "Yes. Progressively harder bodyweight variations can build meaningful strength and muscular endurance.",
+        "Sure. Yes. Progressively harder bodyweight variations can build meaningful strength and muscular endurance."
+      ]
+    },
+    {
+      "tag": "home_equipment",
+      "patterns": [
+        "What equipment do I need at home?",
+        "Tell me about home workout equipment",
+        "I want to know about home workout equipment",
+        "Can you help me with home workout equipment?"
+      ],
+      "responses": [
+        "You can start with no equipment; resistance bands, adjustable dumbbells, or a mat can expand your options.",
+        "Sure. You can start with no equipment; resistance bands, adjustable dumbbells, or a mat can expand your options."
+      ]
+    },
+    {
+      "tag": "gym_equipment",
+      "patterns": [
+        "What gym equipment should beginners use?",
+        "Tell me about gym equipment",
+        "I want to know about gym equipment",
+        "Can you help me with gym equipment?"
+      ],
+      "responses": [
+        "Start with equipment that lets you learn basic movement patterns safely and progress gradually.",
+        "Sure. Start with equipment that lets you learn basic movement patterns safely and progress gradually."
+      ]
+    },
+    {
+      "tag": "treadmill",
+      "patterns": [
+        "How should I use a treadmill?",
+        "Tell me about treadmill workouts",
+        "I want to know about treadmill workouts",
+        "Can you help me with treadmill workouts?"
+      ],
+      "responses": [
+        "Use comfortable walking or running speeds and adjust incline or intervals gradually.",
+        "Sure. Use comfortable walking or running speeds and adjust incline or intervals gradually."
+      ]
+    },
+    {
+      "tag": "elliptical",
+      "patterns": [
+        "Is the elliptical good cardio?",
+        "Tell me about elliptical workouts",
+        "I want to know about elliptical workouts",
+        "Can you help me with elliptical workouts?"
+      ],
+      "responses": [
+        "Yes. The elliptical provides low-impact cardiovascular exercise.",
+        "Sure. Yes. The elliptical provides low-impact cardiovascular exercise."
+      ]
+    },
+    {
+      "tag": "rowing_machine",
+      "patterns": [
+        "Is rowing a good workout?",
+        "Tell me about rowing machine",
+        "I want to know about rowing machine",
+        "Can you help me with rowing machine?"
+      ],
+      "responses": [
+        "Rowing can provide a full-body cardiovascular workout when technique and intensity are managed well.",
+        "Sure. Rowing can provide a full-body cardiovascular workout when technique and intensity are managed well."
+      ]
+    },
+    {
+      "tag": "stair_climber",
+      "patterns": [
+        "What does a stair climber train?",
+        "Tell me about stair climber",
+        "I want to know about stair climber",
+        "Can you help me with stair climber?"
+      ],
+      "responses": [
+        "It provides cardiovascular conditioning while emphasizing the lower body.",
+        "Sure. It provides cardiovascular conditioning while emphasizing the lower body."
+      ]
+    },
+    {
+      "tag": "jump_rope",
+      "patterns": [
+        "Is jump rope good cardio?",
+        "Tell me about jump rope",
+        "I want to know about jump rope",
+        "Can you help me with jump rope?"
+      ],
+      "responses": [
+        "Jump rope can be an efficient cardiovascular and coordination workout, but build volume gradually.",
+        "Sure. Jump rope can be an efficient cardiovascular and coordination workout, but build volume gradually."
+      ]
+    },
+    {
+      "tag": "fitness_beginner_mistakes",
+      "patterns": [
+        "What mistakes should beginners avoid?",
+        "Tell me about beginner fitness mistakes",
+        "I want to know about beginner fitness mistakes",
+        "Can you help me with beginner fitness mistakes?"
+      ],
+      "responses": [
+        "Avoid doing too much too soon, neglecting technique, skipping recovery, and changing programs constantly.",
+        "Sure. Avoid doing too much too soon, neglecting technique, skipping recovery, and changing programs constantly."
+      ]
+    },
+    {
+      "tag": "consistency",
+      "patterns": [
+        "How can I stay consistent?",
+        "Tell me about fitness consistency",
+        "I want to know about fitness consistency",
+        "Can you help me with fitness consistency?"
+      ],
+      "responses": [
+        "Choose realistic sessions, schedule them, track your habits, and focus on long-term progress rather than perfection.",
+        "Sure. Choose realistic sessions, schedule them, track your habits, and focus on long-term progress rather than perfection."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "How can I stay motivated to exercise?",
+        "Tell me about workout motivation",
+        "I want to know about workout motivation",
+        "Can you help me with workout motivation?"
+      ],
+      "responses": [
+        "Use small goals, a routine you enjoy, and measurable progress rather than relying only on motivation.",
+        "Sure. Use small goals, a routine you enjoy, and measurable progress rather than relying only on motivation."
+      ]
+    },
+    {
+      "tag": "discipline",
+      "patterns": [
+        "How can I build exercise discipline?",
+        "Tell me about fitness discipline",
+        "I want to know about fitness discipline",
+        "Can you help me with fitness discipline?"
+      ],
+      "responses": [
+        "Make training a scheduled habit and keep the minimum commitment small enough to maintain on busy days.",
+        "Sure. Make training a scheduled habit and keep the minimum commitment small enough to maintain on busy days."
+      ]
+    },
+    {
+      "tag": "plateau",
+      "patterns": [
+        "What should I do when progress stalls?",
+        "Tell me about fitness plateau",
+        "I want to know about fitness plateau",
+        "Can you help me with fitness plateau?"
+      ],
+      "responses": [
+        "Review training, nutrition, recovery, and measurement methods before making gradual changes.",
+        "Sure. Review training, nutrition, recovery, and measurement methods before making gradual changes."
+      ]
+    },
+    {
+      "tag": "deload",
+      "patterns": [
+        "What is a deload?",
+        "Tell me about deload weeks",
+        "I want to know about deload weeks",
+        "Can you help me with deload weeks?"
+      ],
+      "responses": [
+        "A deload is a planned reduction in training stress that can help manage accumulated fatigue.",
+        "Sure. A deload is a planned reduction in training stress that can help manage accumulated fatigue."
+      ]
+    },
+    {
+      "tag": "overtraining",
+      "patterns": [
+        "What is overtraining?",
+        "Tell me about overtraining",
+        "I want to know about overtraining",
+        "Can you help me with overtraining?"
+      ],
+      "responses": [
+        "Overtraining refers to excessive training stress with inadequate recovery and can reduce performance and wellbeing.",
+        "Sure. Overtraining refers to excessive training stress with inadequate recovery and can reduce performance and wellbeing."
+      ]
+    },
+    {
+      "tag": "muscle_soreness",
+      "patterns": [
+        "Why are my muscles sore after exercise?",
+        "Tell me about muscle soreness",
+        "I want to know about muscle soreness",
+        "Can you help me with muscle soreness?"
+      ],
+      "responses": [
+        "Delayed-onset muscle soreness can occur after unfamiliar or demanding exercise and usually improves with time.",
+        "Sure. Delayed-onset muscle soreness can occur after unfamiliar or demanding exercise and usually improves with time."
+      ]
+    },
+    {
+      "tag": "doms",
+      "patterns": [
+        "What is DOMS?",
+        "Tell me about DOMS",
+        "I want to know about DOMS",
+        "Can you help me with DOMS?"
+      ],
+      "responses": [
+        "DOMS means delayed-onset muscle soreness, which commonly appears after unfamiliar or strenuous exercise.",
+        "Sure. DOMS means delayed-onset muscle soreness, which commonly appears after unfamiliar or strenuous exercise."
+      ]
+    },
+    {
+      "tag": "muscle_cramps",
+      "patterns": [
+        "Why do muscles cramp?",
+        "Tell me about muscle cramps",
+        "I want to know about muscle cramps",
+        "Can you help me with muscle cramps?"
+      ],
+      "responses": [
+        "Cramps can have several causes, including fatigue, hydration issues, and training demands; recurring or severe cramps deserve medical evaluation.",
+        "Sure. Cramps can have several causes, including fatigue, hydration issues, and training demands; recurring or severe cramps deserve medical evaluation."
+      ]
+    },
+    {
+      "tag": "breathing",
+      "patterns": [
+        "How should I breathe during exercise?",
+        "Tell me about exercise breathing",
+        "I want to know about exercise breathing",
+        "Can you help me with exercise breathing?"
+      ],
+      "responses": [
+        "Breathe steadily and avoid unnecessary breath-holding; bracing techniques may be appropriate for certain heavy lifts.",
+        "Sure. Breathe steadily and avoid unnecessary breath-holding; bracing techniques may be appropriate for certain heavy lifts."
+      ]
+    },
+    {
+      "tag": "exercise_form",
+      "patterns": [
+        "Why is exercise form important?",
+        "Tell me about exercise form",
+        "I want to know about exercise form",
+        "Can you help me with exercise form?"
+      ],
+      "responses": [
+        "Good technique helps you control the intended movement and manage unnecessary stress on your body.",
+        "Sure. Good technique helps you control the intended movement and manage unnecessary stress on your body."
+      ]
+    },
+    {
+      "tag": "mind_muscle",
+      "patterns": [
+        "What is the mind-muscle connection?",
+        "Tell me about mind-muscle connection",
+        "I want to know about mind-muscle connection",
+        "Can you help me with mind-muscle connection?"
+      ],
+      "responses": [
+        "It refers to deliberately focusing on the target muscle during an exercise to improve movement awareness.",
+        "Sure. It refers to deliberately focusing on the target muscle during an exercise to improve movement awareness."
+      ]
+    },
+    {
+      "tag": "tempo",
+      "patterns": [
+        "What is exercise tempo?",
+        "Tell me about training tempo",
+        "I want to know about training tempo",
+        "Can you help me with training tempo?"
+      ],
+      "responses": [
+        "Tempo describes how quickly different phases of a repetition are performed.",
+        "Sure. Tempo describes how quickly different phases of a repetition are performed."
+      ]
+    },
+    {
+      "tag": "range_motion",
+      "patterns": [
+        "Why does range of motion matter?",
+        "Tell me about range of motion",
+        "I want to know about range of motion",
+        "Can you help me with range of motion?"
+      ],
+      "responses": [
+        "A suitable range of motion can improve movement quality and help train muscles through useful positions.",
+        "Sure. A suitable range of motion can improve movement quality and help train muscles through useful positions."
+      ]
+    },
+    {
+      "tag": "compound_exercises",
+      "patterns": [
+        "What are compound exercises?",
+        "Tell me about compound exercises",
+        "I want to know about compound exercises",
+        "Can you help me with compound exercises?"
+      ],
+      "responses": [
+        "Compound exercises involve multiple joints and muscle groups in one movement.",
+        "Sure. Compound exercises involve multiple joints and muscle groups in one movement."
+      ]
+    },
+    {
+      "tag": "isolation_exercises",
+      "patterns": [
+        "What are isolation exercises?",
+        "Tell me about isolation exercises",
+        "I want to know about isolation exercises",
+        "Can you help me with isolation exercises?"
+      ],
+      "responses": [
+        "Isolation exercises emphasize a smaller number of muscles and are useful for targeted training.",
+        "Sure. Isolation exercises emphasize a smaller number of muscles and are useful for targeted training."
+      ]
+    },
+    {
+      "tag": "functional_fitness",
+      "patterns": [
+        "What is functional fitness?",
+        "Tell me about functional fitness",
+        "I want to know about functional fitness",
+        "Can you help me with functional fitness?"
+      ],
+      "responses": [
+        "Functional fitness develops strength, endurance, balance, and movement skills useful for everyday activities.",
+        "Sure. Functional fitness develops strength, endurance, balance, and movement skills useful for everyday activities."
+      ]
+    },
+    {
+      "tag": "athletic_training",
+      "patterns": [
+        "How can I train like an athlete?",
+        "Tell me about athletic training",
+        "I want to know about athletic training",
+        "Can you help me with athletic training?"
+      ],
+      "responses": [
+        "Combine strength, power, speed, agility, conditioning, mobility, and sport-specific practice.",
+        "Sure. Combine strength, power, speed, agility, conditioning, mobility, and sport-specific practice."
+      ]
+    },
+    {
+      "tag": "agility",
+      "patterns": [
+        "How can I improve agility?",
+        "Tell me about agility training",
+        "I want to know about agility training",
+        "Can you help me with agility training?"
+      ],
+      "responses": [
+        "Use controlled change-of-direction, footwork, balance, and reaction drills appropriate to your level.",
+        "Sure. Use controlled change-of-direction, footwork, balance, and reaction drills appropriate to your level."
+      ]
+    },
+    {
+      "tag": "speed",
+      "patterns": [
+        "How can I improve speed?",
+        "Tell me about speed training",
+        "I want to know about speed training",
+        "Can you help me with speed training?"
+      ],
+      "responses": [
+        "Speed development combines technique, strength, power, and carefully dosed high-quality repetitions.",
+        "Sure. Speed development combines technique, strength, power, and carefully dosed high-quality repetitions."
+      ]
+    },
+    {
+      "tag": "power",
+      "patterns": [
+        "What is power training?",
+        "Tell me about power training",
+        "I want to know about power training",
+        "Can you help me with power training?"
+      ],
+      "responses": [
+        "Power training focuses on producing force quickly through movements such as jumps or appropriately coached lifts.",
+        "Sure. Power training focuses on producing force quickly through movements such as jumps or appropriately coached lifts."
+      ]
+    },
+    {
+      "tag": "balance",
+      "patterns": [
+        "How can I improve balance?",
+        "Tell me about balance training",
+        "I want to know about balance training",
+        "Can you help me with balance training?"
+      ],
+      "responses": [
+        "Practice controlled single-leg and stability exercises and progress difficulty gradually.",
+        "Sure. Practice controlled single-leg and stability exercises and progress difficulty gradually."
+      ]
+    },
+    {
+      "tag": "coordination",
+      "patterns": [
+        "How can I improve coordination?",
+        "Tell me about coordination",
+        "I want to know about coordination",
+        "Can you help me with coordination?"
+      ],
+      "responses": [
+        "Practice movement patterns slowly and accurately before increasing speed or complexity.",
+        "Sure. Practice movement patterns slowly and accurately before increasing speed or complexity."
+      ]
+    },
+    {
+      "tag": "endurance",
+      "patterns": [
+        "How can I improve endurance?",
+        "Tell me about endurance training",
+        "I want to know about endurance training",
+        "Can you help me with endurance training?"
+      ],
+      "responses": [
+        "Build consistent aerobic volume and gradually add appropriately challenging sessions.",
+        "Sure. Build consistent aerobic volume and gradually add appropriately challenging sessions."
+      ]
+    },
+    {
+      "tag": "aerobic_fitness",
+      "patterns": [
+        "What is aerobic fitness?",
+        "Tell me about aerobic fitness",
+        "I want to know about aerobic fitness",
+        "Can you help me with aerobic fitness?"
+      ],
+      "responses": [
+        "Aerobic fitness is your body's ability to sustain activity using oxygen efficiently.",
+        "Sure. Aerobic fitness is your body's ability to sustain activity using oxygen efficiently."
+      ]
+    },
+    {
+      "tag": "anaerobic_fitness",
+      "patterns": [
+        "What is anaerobic training?",
+        "Tell me about anaerobic fitness",
+        "I want to know about anaerobic fitness",
+        "Can you help me with anaerobic fitness?"
+      ],
+      "responses": [
+        "Anaerobic training involves short, intense efforts that place high demands on energy systems without relying primarily on aerobic metabolism.",
+        "Sure. Anaerobic training involves short, intense efforts that place high demands on energy systems without relying primarily on aerobic metabolism."
+      ]
+    },
+    {
+      "tag": "vo2max",
+      "patterns": [
+        "What is VO2 max?",
+        "Tell me about VO2 max",
+        "I want to know about VO2 max",
+        "Can you help me with VO2 max?"
+      ],
+      "responses": [
+        "VO2 max estimates the maximum rate at which your body can use oxygen during intense exercise.",
+        "Sure. VO2 max estimates the maximum rate at which your body can use oxygen during intense exercise."
+      ]
+    },
+    {
+      "tag": "heart_rate",
+      "patterns": [
+        "Why does heart rate rise during exercise?",
+        "Tell me about heart rate",
+        "I want to know about heart rate",
+        "Can you help me with heart rate?"
+      ],
+      "responses": [
+        "Your heart rate rises to deliver more oxygen and nutrients to working tissues.",
+        "Sure. Your heart rate rises to deliver more oxygen and nutrients to working tissues."
+      ]
+    },
+    {
+      "tag": "heart_rate_zones",
+      "patterns": [
+        "What are heart-rate zones?",
+        "Tell me about heart-rate zones",
+        "I want to know about heart-rate zones",
+        "Can you help me with heart-rate zones?"
+      ],
+      "responses": [
+        "Heart-rate zones divide exercise intensity into ranges that can help structure cardiovascular training.",
+        "Sure. Heart-rate zones divide exercise intensity into ranges that can help structure cardiovascular training."
+      ]
+    },
+    {
+      "tag": "resting_heart_rate",
+      "patterns": [
+        "What is resting heart rate?",
+        "Tell me about resting heart rate",
+        "I want to know about resting heart rate",
+        "Can you help me with resting heart rate?"
+      ],
+      "responses": [
+        "Resting heart rate is your heart rate while at rest and can vary with fitness, stress, sleep, illness, and other factors.",
+        "Sure. Resting heart rate is your heart rate while at rest and can vary with fitness, stress, sleep, illness, and other factors."
+      ]
+    },
+    {
+      "tag": "step_count",
+      "patterns": [
+        "How many steps should I take?",
+        "Tell me about step count",
+        "I want to know about step count",
+        "Can you help me with step count?"
+      ],
+      "responses": [
+        "There is no single ideal number for everyone; increasing daily movement from your current baseline can be useful.",
+        "Sure. There is no single ideal number for everyone; increasing daily movement from your current baseline can be useful."
+      ]
+    },
+    {
+      "tag": "sedentary_time",
+      "patterns": [
+        "How can I sit less?",
+        "Tell me about sedentary time",
+        "I want to know about sedentary time",
+        "Can you help me with sedentary time?"
+      ],
+      "responses": [
+        "Break up long sitting periods with short movement breaks, walking, or simple mobility work.",
+        "Sure. Break up long sitting periods with short movement breaks, walking, or simple mobility work."
+      ]
+    },
+    {
+      "tag": "daily_activity",
+      "patterns": [
+        "How can I become more active?",
+        "Tell me about daily activity",
+        "I want to know about daily activity",
+        "Can you help me with daily activity?"
+      ],
+      "responses": [
+        "Add walking, stairs, movement breaks, household activity, and planned exercise to your normal day.",
+        "Sure. Add walking, stairs, movement breaks, household activity, and planned exercise to your normal day."
+      ]
+    },
+    {
+      "tag": "morning_workout",
+      "patterns": [
+        "Is morning exercise good?",
+        "Tell me about morning workouts",
+        "I want to know about morning workouts",
+        "Can you help me with morning workouts?"
+      ],
+      "responses": [
+        "Morning exercise can work well if it fits your schedule and you can recover and fuel appropriately.",
+        "Sure. Morning exercise can work well if it fits your schedule and you can recover and fuel appropriately."
+      ]
+    },
+    {
+      "tag": "evening_workout",
+      "patterns": [
+        "Is evening exercise okay?",
+        "Tell me about evening workouts",
+        "I want to know about evening workouts",
+        "Can you help me with evening workouts?"
+      ],
+      "responses": [
+        "Yes. The best workout time is often the time you can follow consistently without disrupting recovery.",
+        "Sure. Yes. The best workout time is often the time you can follow consistently without disrupting recovery."
+      ]
+    },
+    {
+      "tag": "fasted_workout",
+      "patterns": [
+        "Should I exercise fasted?",
+        "Tell me about fasted workouts",
+        "I want to know about fasted workouts",
+        "Can you help me with fasted workouts?"
+      ],
+      "responses": [
+        "Some people tolerate fasted exercise, but it is not required for fat loss and may reduce performance for some workouts.",
+        "Sure. Some people tolerate fasted exercise, but it is not required for fat loss and may reduce performance for some workouts."
+      ]
+    },
+    {
+      "tag": "preworkout",
+      "patterns": [
+        "Do I need a pre-workout?",
+        "Tell me about pre-workout supplements",
+        "I want to know about pre-workout supplements",
+        "Can you help me with pre-workout supplements?"
+      ],
+      "responses": [
+        "No. A supplement is optional; sleep, nutrition, hydration, and a good training plan matter more.",
+        "Sure. No. A supplement is optional; sleep, nutrition, hydration, and a good training plan matter more."
+      ]
+    },
+    {
+      "tag": "caffeine_fitness",
+      "patterns": [
+        "Can caffeine help workouts?",
+        "Tell me about caffeine and fitness",
+        "I want to know about caffeine and fitness",
+        "Can you help me with caffeine and fitness?"
+      ],
+      "responses": [
+        "Caffeine can improve alertness and performance for some people, but sensitivity varies and excessive intake can cause problems.",
+        "Sure. Caffeine can improve alertness and performance for some people, but sensitivity varies and excessive intake can cause problems."
+      ]
+    },
+    {
+      "tag": "creatine",
+      "patterns": [
+        "What is creatine?",
+        "Tell me about creatine",
+        "I want to know about creatine",
+        "Can you help me with creatine?"
+      ],
+      "responses": [
+        "Creatine is a well-studied supplement that can support performance in repeated high-intensity exercise.",
+        "Sure. Creatine is a well-studied supplement that can support performance in repeated high-intensity exercise."
+      ]
+    },
+    {
+      "tag": "supplements",
+      "patterns": [
+        "Do I need supplements?",
+        "Tell me about fitness supplements",
+        "I want to know about fitness supplements",
+        "Can you help me with fitness supplements?"
+      ],
+      "responses": [
+        "Most people should prioritize a balanced diet, training, sleep, and hydration before considering supplements.",
+        "Sure. Most people should prioritize a balanced diet, training, sleep, and hydration before considering supplements."
+      ]
+    },
+    {
+      "tag": "multivitamin",
+      "patterns": [
+        "Do I need a multivitamin for fitness?",
+        "Tell me about multivitamins",
+        "I want to know about multivitamins",
+        "Can you help me with multivitamins?"
+      ],
+      "responses": [
+        "A multivitamin is not automatically necessary; nutritional needs depend on diet and individual circumstances.",
+        "Sure. A multivitamin is not automatically necessary; nutritional needs depend on diet and individual circumstances."
+      ]
+    },
+    {
+      "tag": "electrolytes",
+      "patterns": [
+        "When are electrolytes useful?",
+        "Tell me about electrolytes",
+        "I want to know about electrolytes",
+        "Can you help me with electrolytes?"
+      ],
+      "responses": [
+        "Electrolytes can be useful during prolonged or very sweaty exercise, especially in hot conditions.",
+        "Sure. Electrolytes can be useful during prolonged or very sweaty exercise, especially in hot conditions."
+      ]
+    },
+    {
+      "tag": "sports_drinks",
+      "patterns": [
+        "Do I need sports drinks?",
+        "Tell me about sports drinks",
+        "I want to know about sports drinks",
+        "Can you help me with sports drinks?"
+      ],
+      "responses": [
+        "They can be useful for prolonged, intense exercise, but water and normal meals are sufficient for many shorter workouts.",
+        "Sure. They can be useful for prolonged, intense exercise, but water and normal meals are sufficient for many shorter workouts."
+      ]
+    },
+    {
+      "tag": "protein_shake",
+      "patterns": [
+        "Do I need protein shakes?",
+        "Tell me about protein shakes",
+        "I want to know about protein shakes",
+        "Can you help me with protein shakes?"
+      ],
+      "responses": [
+        "Protein shakes are convenient but not essential if you can meet protein needs through food.",
+        "Sure. Protein shakes are convenient but not essential if you can meet protein needs through food."
+      ]
+    },
+    {
+      "tag": "whey_protein",
+      "patterns": [
+        "What is whey protein?",
+        "Tell me about whey protein",
+        "I want to know about whey protein",
+        "Can you help me with whey protein?"
+      ],
+      "responses": [
+        "Whey is a dairy-derived protein that provides a convenient source of essential amino acids.",
+        "Sure. Whey is a dairy-derived protein that provides a convenient source of essential amino acids."
+      ]
+    },
+    {
+      "tag": "plant_protein",
+      "patterns": [
+        "Can plant proteins support muscle gain?",
+        "Tell me about plant protein",
+        "I want to know about plant protein",
+        "Can you help me with plant protein?"
+      ],
+      "responses": [
+        "Yes. A varied plant-based diet can provide adequate protein when total intake and food variety are sufficient.",
+        "Sure. Yes. A varied plant-based diet can provide adequate protein when total intake and food variety are sufficient."
+      ]
+    },
+    {
+      "tag": "meal_frequency",
+      "patterns": [
+        "How many meals should I eat?",
+        "Tell me about meal frequency",
+        "I want to know about meal frequency",
+        "Can you help me with meal frequency?"
+      ],
+      "responses": [
+        "Meal frequency can be based on preference, schedule, hunger, and nutritional needs rather than a single mandatory number.",
+        "Sure. Meal frequency can be based on preference, schedule, hunger, and nutritional needs rather than a single mandatory number."
+      ]
+    },
+    {
+      "tag": "intermittent_fasting",
+      "patterns": [
+        "Does intermittent fasting work?",
+        "Tell me about intermittent fasting",
+        "I want to know about intermittent fasting",
+        "Can you help me with intermittent fasting?"
+      ],
+      "responses": [
+        "It can help some people control calorie intake, but overall diet quality and energy balance remain important.",
+        "Sure. It can help some people control calorie intake, but overall diet quality and energy balance remain important."
+      ]
+    },
+    {
+      "tag": "balanced_diet",
+      "patterns": [
+        "What is a balanced fitness diet?",
+        "Tell me about balanced diet",
+        "I want to know about balanced diet",
+        "Can you help me with balanced diet?"
+      ],
+      "responses": [
+        "Include varied protein sources, vegetables, fruit, whole grains or other carbohydrates, healthy fats, and adequate fluids.",
+        "Sure. Include varied protein sources, vegetables, fruit, whole grains or other carbohydrates, healthy fats, and adequate fluids."
+      ]
+    },
+    {
+      "tag": "whole_foods",
+      "patterns": [
+        "Why choose whole foods?",
+        "Tell me about whole foods",
+        "I want to know about whole foods",
+        "Can you help me with whole foods?"
+      ],
+      "responses": [
+        "Whole or minimally processed foods often provide useful nutrients, fiber, and satiety.",
+        "Sure. Whole or minimally processed foods often provide useful nutrients, fiber, and satiety."
+      ]
+    },
+    {
+      "tag": "processed_foods",
+      "patterns": [
+        "Can I eat processed foods while getting fit?",
+        "Tell me about processed foods",
+        "I want to know about processed foods",
+        "Can you help me with processed foods?"
+      ],
+      "responses": [
+        "Yes. Overall dietary pattern matters; highly processed foods can fit in moderation within a balanced diet.",
+        "Sure. Yes. Overall dietary pattern matters; highly processed foods can fit in moderation within a balanced diet."
+      ]
+    },
+    {
+      "tag": "sugar",
+      "patterns": [
+        "Should I avoid sugar completely?",
+        "Tell me about sugar",
+        "I want to know about sugar",
+        "Can you help me with sugar?"
+      ],
+      "responses": [
+        "Complete avoidance is usually unnecessary; focus on overall diet quality and moderate added sugar intake.",
+        "Sure. Complete avoidance is usually unnecessary; focus on overall diet quality and moderate added sugar intake."
+      ]
+    },
+    {
+      "tag": "salt",
+      "patterns": [
+        "Does salt matter for exercise?",
+        "Tell me about salt",
+        "I want to know about salt",
+        "Can you help me with salt?"
+      ],
+      "responses": [
+        "Sodium is an essential electrolyte, and needs can increase with heavy sweating, but individual requirements vary.",
+        "Sure. Sodium is an essential electrolyte, and needs can increase with heavy sweating, but individual requirements vary."
+      ]
+    },
+    {
+      "tag": "vegetarian_fitness",
+      "patterns": [
+        "Can vegetarians build muscle?",
+        "Tell me about vegetarian fitness",
+        "I want to know about vegetarian fitness",
+        "Can you help me with vegetarian fitness?"
+      ],
+      "responses": [
+        "Yes. Use varied protein-rich foods such as dairy, eggs, legumes, soy, and other suitable sources.",
+        "Sure. Yes. Use varied protein-rich foods such as dairy, eggs, legumes, soy, and other suitable sources."
+      ]
+    },
+    {
+      "tag": "vegan_fitness",
+      "patterns": [
+        "Can vegans build muscle?",
+        "Tell me about vegan fitness",
+        "I want to know about vegan fitness",
+        "Can you help me with vegan fitness?"
+      ],
+      "responses": [
+        "Yes. Adequate total calories, protein, resistance training, and attention to key nutrients are important.",
+        "Sure. Yes. Adequate total calories, protein, resistance training, and attention to key nutrients are important."
+      ]
+    },
+    {
+      "tag": "hydration_before",
+      "patterns": [
+        "Should I drink water before exercise?",
+        "Tell me about hydration before exercise",
+        "I want to know about hydration before exercise",
+        "Can you help me with hydration before exercise?"
+      ],
+      "responses": [
+        "Arrive reasonably hydrated and drink according to thirst and conditions.",
+        "Sure. Arrive reasonably hydrated and drink according to thirst and conditions."
+      ]
+    },
+    {
+      "tag": "hydration_during",
+      "patterns": [
+        "How should I hydrate during workouts?",
+        "Tell me about hydration during exercise",
+        "I want to know about hydration during exercise",
+        "Can you help me with hydration during exercise?"
+      ],
+      "responses": [
+        "Drink regularly as needed, with greater attention during long, hot, or highly sweaty sessions.",
+        "Sure. Drink regularly as needed, with greater attention during long, hot, or highly sweaty sessions."
+      ]
+    },
+    {
+      "tag": "hydration_after",
+      "patterns": [
+        "Should I drink after exercise?",
+        "Tell me about hydration after exercise",
+        "I want to know about hydration after exercise",
+        "Can you help me with hydration after exercise?"
+      ],
+      "responses": [
+        "Replace fluids after exercise, especially after substantial sweating.",
+        "Sure. Replace fluids after exercise, especially after substantial sweating."
+      ]
+    },
+    {
+      "tag": "sleep_duration",
+      "patterns": [
+        "How much sleep supports fitness?",
+        "Tell me about sleep duration",
+        "I want to know about sleep duration",
+        "Can you help me with sleep duration?"
+      ],
+      "responses": [
+        "Most adults benefit from roughly 7–9 hours of sleep per night, though individual needs vary.",
+        "Sure. Most adults benefit from roughly 7–9 hours of sleep per night, though individual needs vary."
+      ]
+    },
+    {
+      "tag": "sleep_schedule",
+      "patterns": [
+        "How can I improve my sleep routine?",
+        "Tell me about sleep schedule",
+        "I want to know about sleep schedule",
+        "Can you help me with sleep schedule?"
+      ],
+      "responses": [
+        "Keep a consistent schedule, create a relaxing wind-down routine, and manage light and caffeine appropriately.",
+        "Sure. Keep a consistent schedule, create a relaxing wind-down routine, and manage light and caffeine appropriately."
+      ]
+    },
+    {
+      "tag": "stress_fitness",
+      "patterns": [
+        "Can exercise reduce stress?",
+        "Tell me about stress and fitness",
+        "I want to know about stress and fitness",
+        "Can you help me with stress and fitness?"
+      ],
+      "responses": [
+        "Regular moderate activity can support stress management, mood, and overall wellbeing.",
+        "Sure. Regular moderate activity can support stress management, mood, and overall wellbeing."
+      ]
+    },
+    {
+      "tag": "mental_fitness",
+      "patterns": [
+        "How does exercise affect mental wellbeing?",
+        "Tell me about mental wellbeing and exercise",
+        "I want to know about mental wellbeing and exercise",
+        "Can you help me with mental wellbeing and exercise?"
+      ],
+      "responses": [
+        "Regular physical activity can support mood, stress management, and general psychological wellbeing.",
+        "Sure. Regular physical activity can support mood, stress management, and general psychological wellbeing."
+      ]
+    },
+    {
+      "tag": "active_recovery",
+      "patterns": [
+        "What is active recovery?",
+        "Tell me about active recovery",
+        "I want to know about active recovery",
+        "Can you help me with active recovery?"
+      ],
+      "responses": [
+        "Active recovery uses easy movement such as walking or gentle cycling instead of complete inactivity.",
+        "Sure. Active recovery uses easy movement such as walking or gentle cycling instead of complete inactivity."
+      ]
+    },
+    {
+      "tag": "foam_rolling",
+      "patterns": [
+        "Does foam rolling help?",
+        "Tell me about foam rolling",
+        "I want to know about foam rolling",
+        "Can you help me with foam rolling?"
+      ],
+      "responses": [
+        "Foam rolling can temporarily improve perceived muscle tightness and range of motion for some people.",
+        "Sure. Foam rolling can temporarily improve perceived muscle tightness and range of motion for some people."
+      ]
+    },
+    {
+      "tag": "massage",
+      "patterns": [
+        "Is massage useful for recovery?",
+        "Tell me about sports massage",
+        "I want to know about sports massage",
+        "Can you help me with sports massage?"
+      ],
+      "responses": [
+        "Massage may help relaxation and perceived soreness, but it does not replace sleep, nutrition, and sensible training.",
+        "Sure. Massage may help relaxation and perceived soreness, but it does not replace sleep, nutrition, and sensible training."
+      ]
+    },
+    {
+      "tag": "ice_bath",
+      "patterns": [
+        "Are ice baths necessary?",
+        "Tell me about ice baths",
+        "I want to know about ice baths",
+        "Can you help me with ice baths?"
+      ],
+      "responses": [
+        "Ice baths are optional; they may reduce perceived soreness but are not essential for normal training recovery.",
+        "Sure. Ice baths are optional; they may reduce perceived soreness but are not essential for normal training recovery."
+      ]
+    },
+    {
+      "tag": "heat_recovery",
+      "patterns": [
+        "Does heat help recovery?",
+        "Tell me about heat and recovery",
+        "I want to know about heat and recovery",
+        "Can you help me with heat and recovery?"
+      ],
+      "responses": [
+        "Heat can feel relaxing and may temporarily reduce stiffness, but it should be used appropriately and safely.",
+        "Sure. Heat can feel relaxing and may temporarily reduce stiffness, but it should be used appropriately and safely."
+      ]
+    },
+    {
+      "tag": "injury_prevention",
+      "patterns": [
+        "How can I reduce exercise injury risk?",
+        "Tell me about injury prevention",
+        "I want to know about injury prevention",
+        "Can you help me with injury prevention?"
+      ],
+      "responses": [
+        "Progress gradually, learn sound technique, manage fatigue, and include adequate recovery.",
+        "Sure. Progress gradually, learn sound technique, manage fatigue, and include adequate recovery."
+      ]
+    },
+    {
+      "tag": "exercise_pain",
+      "patterns": [
+        "Is pain during exercise normal?",
+        "Tell me about exercise pain",
+        "I want to know about exercise pain",
+        "Can you help me with exercise pain?"
+      ],
+      "responses": [
+        "Sharp, severe, or unusual pain should not be ignored; stop the activity and seek appropriate professional advice.",
+        "Sure. Sharp, severe, or unusual pain should not be ignored; stop the activity and seek appropriate professional advice."
+      ]
+    },
+    {
+      "tag": "knee_friendly",
+      "patterns": [
+        "What exercises are easier on the knees?",
+        "Tell me about knee-friendly workouts",
+        "I want to know about knee-friendly workouts",
+        "Can you help me with knee-friendly workouts?"
+      ],
+      "responses": [
+        "Low-impact activities and appropriately modified strength exercises can reduce impact, but individual tolerance varies.",
+        "Sure. Low-impact activities and appropriately modified strength exercises can reduce impact, but individual tolerance varies."
+      ]
+    },
+    {
+      "tag": "back_friendly",
+      "patterns": [
+        "What exercises are easier on the back?",
+        "Tell me about back-friendly workouts",
+        "I want to know about back-friendly workouts",
+        "Can you help me with back-friendly workouts?"
+      ],
+      "responses": [
+        "Choose controlled movements and loads appropriate to your ability; persistent back pain should be assessed by a qualified professional.",
+        "Sure. Choose controlled movements and loads appropriate to your ability; persistent back pain should be assessed by a qualified professional."
+      ]
+    },
+    {
+      "tag": "shoulder_friendly",
+      "patterns": [
+        "How can I train around shoulder discomfort?",
+        "Tell me about shoulder-friendly workouts",
+        "I want to know about shoulder-friendly workouts",
+        "Can you help me with shoulder-friendly workouts?"
+      ],
+      "responses": [
+        "Avoid movements that aggravate symptoms and seek professional assessment for persistent or significant shoulder pain.",
+        "Sure. Avoid movements that aggravate symptoms and seek professional assessment for persistent or significant shoulder pain."
+      ]
+    },
+    {
+      "tag": "ankle_mobility",
+      "patterns": [
+        "How can I improve ankle mobility?",
+        "Tell me about ankle mobility",
+        "I want to know about ankle mobility",
+        "Can you help me with ankle mobility?"
+      ],
+      "responses": [
+        "Controlled ankle movements, calf mobility work, and gradual loaded exercises can help improve useful range of motion.",
+        "Sure. Controlled ankle movements, calf mobility work, and gradual loaded exercises can help improve useful range of motion."
+      ]
+    },
+    {
+      "tag": "hip_mobility",
+      "patterns": [
+        "How can I improve hip mobility?",
+        "Tell me about hip mobility",
+        "I want to know about hip mobility",
+        "Can you help me with hip mobility?"
+      ],
+      "responses": [
+        "Use controlled hip mobility drills and strength exercises through comfortable ranges.",
+        "Sure. Use controlled hip mobility drills and strength exercises through comfortable ranges."
+      ]
+    },
+    {
+      "tag": "thoracic_mobility",
+      "patterns": [
+        "What is thoracic mobility?",
+        "Tell me about thoracic mobility",
+        "I want to know about thoracic mobility",
+        "Can you help me with thoracic mobility?"
+      ],
+      "responses": [
+        "Thoracic mobility refers to movement capacity in the upper and middle spine and can support comfortable upper-body movement.",
+        "Sure. Thoracic mobility refers to movement capacity in the upper and middle spine and can support comfortable upper-body movement."
+      ]
+    },
+    {
+      "tag": "posture",
+      "patterns": [
+        "Can exercise improve posture?",
+        "Tell me about posture and fitness",
+        "I want to know about posture and fitness",
+        "Can you help me with posture and fitness?"
+      ],
+      "responses": [
+        "Strengthening relevant muscles and improving movement habits can support comfortable posture.",
+        "Sure. Strengthening relevant muscles and improving movement habits can support comfortable posture."
+      ]
+    },
+    {
+      "tag": "desk_exercises",
+      "patterns": [
+        "What exercises can I do at a desk?",
+        "Tell me about desk exercises",
+        "I want to know about desk exercises",
+        "Can you help me with desk exercises?"
+      ],
+      "responses": [
+        "Try brief movement breaks such as walking, shoulder movements, gentle mobility, and sit-to-stand repetitions.",
+        "Sure. Try brief movement breaks such as walking, shoulder movements, gentle mobility, and sit-to-stand repetitions."
+      ]
+    },
+    {
+      "tag": "office_fitness",
+      "patterns": [
+        "How can I stay fit with an office job?",
+        "Tell me about office fitness",
+        "I want to know about office fitness",
+        "Can you help me with office fitness?"
+      ],
+      "responses": [
+        "Schedule movement breaks, walk regularly, and add structured strength or cardio sessions outside work.",
+        "Sure. Schedule movement breaks, walk regularly, and add structured strength or cardio sessions outside work."
+      ]
+    },
+    {
+      "tag": "travel_workout",
+      "patterns": [
+        "How can I exercise while traveling?",
+        "Tell me about travel workouts",
+        "I want to know about travel workouts",
+        "Can you help me with travel workouts?"
+      ],
+      "responses": [
+        "Use short bodyweight circuits, walking, hotel-gym equipment, or resistance bands depending on what is available.",
+        "Sure. Use short bodyweight circuits, walking, hotel-gym equipment, or resistance bands depending on what is available."
+      ]
+    },
+    {
+      "tag": "busy_schedule",
+      "patterns": [
+        "How can I work out when I am busy?",
+        "Tell me about busy schedule workouts",
+        "I want to know about busy schedule workouts",
+        "Can you help me with busy schedule workouts?"
+      ],
+      "responses": [
+        "Use short, focused sessions and prioritize major movement patterns rather than trying to complete long workouts.",
+        "Sure. Use short, focused sessions and prioritize major movement patterns rather than trying to complete long workouts."
+      ]
+    },
+    {
+      "tag": "quick_workout",
+      "patterns": [
+        "Can a 15-minute workout help?",
+        "Tell me about quick workouts",
+        "I want to know about quick workouts",
+        "Can you help me with quick workouts?"
+      ],
+      "responses": [
+        "Yes. A focused 15-minute session can contribute to fitness when performed consistently.",
+        "Sure. Yes. A focused 15-minute session can contribute to fitness when performed consistently."
+      ]
+    },
+    {
+      "tag": "ten_minute_workout",
+      "patterns": [
+        "Is a 10-minute workout useful?",
+        "Tell me about 10-minute workouts",
+        "I want to know about 10-minute workouts",
+        "Can you help me with 10-minute workouts?"
+      ],
+      "responses": [
+        "Yes. Short bouts of activity add up and are better than doing nothing.",
+        "Sure. Yes. Short bouts of activity add up and are better than doing nothing."
+      ]
+    },
+    {
+      "tag": "weekend_warrior",
+      "patterns": [
+        "Is exercising only on weekends enough?",
+        "Tell me about weekend workouts",
+        "I want to know about weekend workouts",
+        "Can you help me with weekend workouts?"
+      ],
+      "responses": [
+        "Weekend activity is useful, but spreading movement across the week is generally easier to recover from and sustain.",
+        "Sure. Weekend activity is useful, but spreading movement across the week is generally easier to recover from and sustain."
+      ]
+    },
+    {
+      "tag": "habit_building",
+      "patterns": [
+        "How do I build a workout habit?",
+        "Tell me about exercise habits",
+        "I want to know about exercise habits",
+        "Can you help me with exercise habits?"
+      ],
+      "responses": [
+        "Start with a small repeatable routine, attach it to an existing habit, and increase gradually.",
+        "Sure. Start with a small repeatable routine, attach it to an existing habit, and increase gradually."
+      ]
+    },
+    {
+      "tag": "goal_setting",
+      "patterns": [
+        "How should I set fitness goals?",
+        "Tell me about fitness goal setting",
+        "I want to know about fitness goal setting",
+        "Can you help me with fitness goal setting?"
+      ],
+      "responses": [
+        "Use specific, measurable, realistic goals with a clear timeframe and a way to track progress.",
+        "Sure. Use specific, measurable, realistic goals with a clear timeframe and a way to track progress."
+      ]
+    },
+    {
+      "tag": "smart_goals",
+      "patterns": [
+        "What are SMART fitness goals?",
+        "Tell me about SMART fitness goals",
+        "I want to know about SMART fitness goals",
+        "Can you help me with SMART fitness goals?"
+      ],
+      "responses": [
+        "SMART goals are specific, measurable, achievable, relevant, and time-bound.",
+        "Sure. SMART goals are specific, measurable, achievable, relevant, and time-bound."
+      ]
+    },
+    {
+      "tag": "short_term_goals",
+      "patterns": [
+        "What are good short-term fitness goals?",
+        "Tell me about short-term fitness goals",
+        "I want to know about short-term fitness goals",
+        "Can you help me with short-term fitness goals?"
+      ],
+      "responses": [
+        "Examples include completing scheduled workouts, improving a lift, increasing walking, or maintaining a consistent routine.",
+        "Sure. Examples include completing scheduled workouts, improving a lift, increasing walking, or maintaining a consistent routine."
+      ]
+    },
+    {
+      "tag": "long_term_goals",
+      "patterns": [
+        "What are good long-term fitness goals?",
+        "Tell me about long-term fitness goals",
+        "I want to know about long-term fitness goals",
+        "Can you help me with long-term fitness goals?"
+      ],
+      "responses": [
+        "Examples include building strength, improving endurance, changing body composition, or completing a challenging activity.",
+        "Sure. Examples include building strength, improving endurance, changing body composition, or completing a challenging activity."
+      ]
+    },
+    {
+      "tag": "fitness_assessment",
+      "patterns": [
+        "How can I assess my fitness?",
+        "Tell me about fitness assessment",
+        "I want to know about fitness assessment",
+        "Can you help me with fitness assessment?"
+      ],
+      "responses": [
+        "Use practical measures such as strength, aerobic capacity, mobility, balance, body measurements, and activity habits.",
+        "Sure. Use practical measures such as strength, aerobic capacity, mobility, balance, body measurements, and activity habits."
+      ]
+    },
+    {
+      "tag": "beginner_strength_test",
+      "patterns": [
+        "How can beginners measure strength?",
+        "Tell me about beginner strength testing",
+        "I want to know about beginner strength testing",
+        "Can you help me with beginner strength testing?"
+      ],
+      "responses": [
+        "Track performance on controlled exercises using safe loads and consistent technique rather than chasing maximum lifts.",
+        "Sure. Track performance on controlled exercises using safe loads and consistent technique rather than chasing maximum lifts."
+      ]
+    },
+    {
+      "tag": "running_test",
+      "patterns": [
+        "How can I test running fitness?",
+        "Tell me about running fitness test",
+        "I want to know about running fitness test",
+        "Can you help me with running fitness test?"
+      ],
+      "responses": [
+        "Use a repeatable distance or time trial at an appropriate intensity and compare results over time.",
+        "Sure. Use a repeatable distance or time trial at an appropriate intensity and compare results over time."
+      ]
+    },
+    {
+      "tag": "walking_test",
+      "patterns": [
+        "How can I measure walking fitness?",
+        "Tell me about walking fitness test",
+        "I want to know about walking fitness test",
+        "Can you help me with walking fitness test?"
+      ],
+      "responses": [
+        "Track a consistent walking distance, duration, pace, or heart-rate response under similar conditions.",
+        "Sure. Track a consistent walking distance, duration, pace, or heart-rate response under similar conditions."
+      ]
+    },
+    {
+      "tag": "resting_recovery",
+      "patterns": [
+        "How can I tell if I recovered?",
+        "Tell me about recovery indicators",
+        "I want to know about recovery indicators",
+        "Can you help me with recovery indicators?"
+      ],
+      "responses": [
+        "Consider sleep, soreness, energy, motivation, performance, and overall fatigue rather than relying on one measurement.",
+        "Sure. Consider sleep, soreness, energy, motivation, performance, and overall fatigue rather than relying on one measurement."
+      ]
+    },
+    {
+      "tag": "training_load",
+      "patterns": [
+        "What is training load?",
+        "Tell me about training load",
+        "I want to know about training load",
+        "Can you help me with training load?"
+      ],
+      "responses": [
+        "Training load represents the overall stress created by exercise volume and intensity.",
+        "Sure. Training load represents the overall stress created by exercise volume and intensity."
+      ]
+    },
+    {
+      "tag": "volume",
+      "patterns": [
+        "What is training volume?",
+        "Tell me about training volume",
+        "I want to know about training volume",
+        "Can you help me with training volume?"
+      ],
+      "responses": [
+        "Training volume describes how much work you perform, often represented by sets and repetitions or distance and duration.",
+        "Sure. Training volume describes how much work you perform, often represented by sets and repetitions or distance and duration."
+      ]
+    },
+    {
+      "tag": "intensity",
+      "patterns": [
+        "What is workout intensity?",
+        "Tell me about exercise intensity",
+        "I want to know about exercise intensity",
+        "Can you help me with exercise intensity?"
+      ],
+      "responses": [
+        "Intensity describes how demanding an exercise is, using measures such as load, speed, heart rate, or perceived effort.",
+        "Sure. Intensity describes how demanding an exercise is, using measures such as load, speed, heart rate, or perceived effort."
+      ]
+    },
+    {
+      "tag": "rir",
+      "patterns": [
+        "What are reps in reserve?",
+        "Tell me about reps in reserve",
+        "I want to know about reps in reserve",
+        "Can you help me with reps in reserve?"
+      ],
+      "responses": [
+        "RIR estimates how many good repetitions you could still perform before reaching muscular failure.",
+        "Sure. RIR estimates how many good repetitions you could still perform before reaching muscular failure."
+      ]
+    },
+    {
+      "tag": "rpe",
+      "patterns": [
+        "What is RPE?",
+        "Tell me about RPE",
+        "I want to know about RPE",
+        "Can you help me with RPE?"
+      ],
+      "responses": [
+        "RPE is a rating of perceived exertion used to describe how hard an exercise or session feels.",
+        "Sure. RPE is a rating of perceived exertion used to describe how hard an exercise or session feels."
+      ]
+    },
+    {
+      "tag": "failure_training",
+      "patterns": [
+        "Should I train to failure?",
+        "Tell me about training to failure",
+        "I want to know about training to failure",
+        "Can you help me with training to failure?"
+      ],
+      "responses": [
+        "Training to failure is not required for every set; use it selectively and consider fatigue and exercise safety.",
+        "Sure. Training to failure is not required for every set; use it selectively and consider fatigue and exercise safety."
+      ]
+    },
+    {
+      "tag": "strength_vs_hypertrophy",
+      "patterns": [
+        "What is the difference between strength and hypertrophy training?",
+        "Tell me about strength vs hypertrophy",
+        "I want to know about strength vs hypertrophy",
+        "Can you help me with strength vs hypertrophy?"
+      ],
+      "responses": [
+        "Strength emphasizes performance and force production, while hypertrophy emphasizes muscle growth; both use resistance training.",
+        "Sure. Strength emphasizes performance and force production, while hypertrophy emphasizes muscle growth; both use resistance training."
+      ]
+    },
+    {
+      "tag": "muscle_frequency",
+      "patterns": [
+        "How often should I train each muscle?",
+        "Tell me about muscle training frequency",
+        "I want to know about muscle training frequency",
+        "Can you help me with muscle training frequency?"
+      ],
+      "responses": [
+        "Frequency can vary; distributing sufficient weekly training volume across multiple sessions can be effective.",
+        "Sure. Frequency can vary; distributing sufficient weekly training volume across multiple sessions can be effective."
+      ]
+    },
+    {
+      "tag": "beginner_program",
+      "patterns": [
+        "What should a beginner workout program include?",
+        "Tell me about beginner program",
+        "I want to know about beginner program",
+        "Can you help me with beginner program?"
+      ],
+      "responses": [
+        "Include basic movement patterns, manageable volume, gradual progression, and recovery days.",
+        "Sure. Include basic movement patterns, manageable volume, gradual progression, and recovery days."
+      ]
+    },
+    {
+      "tag": "intermediate_program",
+      "patterns": [
+        "What changes in an intermediate program?",
+        "Tell me about intermediate program",
+        "I want to know about intermediate program",
+        "Can you help me with intermediate program?"
+      ],
+      "responses": [
+        "Intermediate training can use more structured volume, intensity, exercise variation, and progression.",
+        "Sure. Intermediate training can use more structured volume, intensity, exercise variation, and progression."
+      ]
+    },
+    {
+      "tag": "advanced_program",
+      "patterns": [
+        "What is advanced fitness programming?",
+        "Tell me about advanced program",
+        "I want to know about advanced program",
+        "Can you help me with advanced program?"
+      ],
+      "responses": [
+        "Advanced programming requires careful management of volume, intensity, specificity, fatigue, and recovery.",
+        "Sure. Advanced programming requires careful management of volume, intensity, specificity, fatigue, and recovery."
+      ]
+    },
+    {
+      "tag": "periodization",
+      "patterns": [
+        "What is periodization?",
+        "Tell me about periodization",
+        "I want to know about periodization",
+        "Can you help me with periodization?"
+      ],
+      "responses": [
+        "Periodization organizes training variables over time to support specific performance or physique goals.",
+        "Sure. Periodization organizes training variables over time to support specific performance or physique goals."
+      ]
+    },
+    {
+      "tag": "training_split",
+      "patterns": [
+        "How do I choose a training split?",
+        "Tell me about training splits",
+        "I want to know about training splits",
+        "Can you help me with training splits?"
+      ],
+      "responses": [
+        "Choose a split that fits your schedule, recovery capacity, experience, and desired weekly training frequency.",
+        "Sure. Choose a split that fits your schedule, recovery capacity, experience, and desired weekly training frequency."
+      ]
+    },
+    {
+      "tag": "deload_signs",
+      "patterns": [
+        "How do I know when I need a deload?",
+        "Tell me about deload signs",
+        "I want to know about deload signs",
+        "Can you help me with deload signs?"
+      ],
+      "responses": [
+        "Persistent fatigue, declining performance, poor motivation, and unusually prolonged soreness can indicate that training stress needs adjustment.",
+        "Sure. Persistent fatigue, declining performance, poor motivation, and unusually prolonged soreness can indicate that training stress needs adjustment."
+      ]
+    },
+    {
+      "tag": "rest_between_workouts",
+      "patterns": [
+        "How long should I recover between workouts?",
+        "Tell me about recovery between workouts",
+        "I want to know about recovery between workouts",
+        "Can you help me with recovery between workouts?"
+      ],
+      "responses": [
+        "Recovery time varies by exercise, intensity, muscle group, training age, sleep, and nutrition.",
+        "Sure. Recovery time varies by exercise, intensity, muscle group, training age, sleep, and nutrition."
+      ]
+    },
+    {
+      "tag": "muscle_recovery",
+      "patterns": [
+        "How long do muscles need to recover?",
+        "Tell me about muscle recovery",
+        "I want to know about muscle recovery",
+        "Can you help me with muscle recovery?"
+      ],
+      "responses": [
+        "Recovery varies substantially; soreness and performance are useful practical indicators.",
+        "Sure. Recovery varies substantially; soreness and performance are useful practical indicators."
+      ]
+    },
+    {
+      "tag": "protein_timing",
+      "patterns": [
+        "Does protein timing matter?",
+        "Tell me about protein timing",
+        "I want to know about protein timing",
+        "Can you help me with protein timing?"
+      ],
+      "responses": [
+        "Total daily protein is generally more important, while distributing protein across meals can also be useful.",
+        "Sure. Total daily protein is generally more important, while distributing protein across meals can also be useful."
+      ]
+    },
+    {
+      "tag": "protein_per_meal",
+      "patterns": [
+        "How much protein should I eat per meal?",
+        "Tell me about protein per meal",
+        "I want to know about protein per meal",
+        "Can you help me with protein per meal?"
+      ],
+      "responses": [
+        "A moderate protein serving at several meals can help distribute intake across the day.",
+        "Sure. A moderate protein serving at several meals can help distribute intake across the day."
+      ]
+    },
+    {
+      "tag": "postworkout_protein",
+      "patterns": [
+        "Do I need protein immediately after training?",
+        "Tell me about post-workout protein",
+        "I want to know about post-workout protein",
+        "Can you help me with post-workout protein?"
+      ],
+      "responses": [
+        "You do not need to consume protein immediately, but a protein-containing meal or snack around training can support recovery.",
+        "Sure. You do not need to consume protein immediately, but a protein-containing meal or snack around training can support recovery."
+      ]
+    },
+    {
+      "tag": "carb_timing",
+      "patterns": [
+        "Should I time carbohydrates around workouts?",
+        "Tell me about carbohydrate timing",
+        "I want to know about carbohydrate timing",
+        "Can you help me with carbohydrate timing?"
+      ],
+      "responses": [
+        "Carbohydrate timing can help performance and recovery, especially when training is long, intense, or frequent.",
+        "Sure. Carbohydrate timing can help performance and recovery, especially when training is long, intense, or frequent."
+      ]
+    },
+    {
+      "tag": "fiber_before_workout",
+      "patterns": [
+        "Should I eat lots of fiber before exercise?",
+        "Tell me about fiber before workouts",
+        "I want to know about fiber before workouts",
+        "Can you help me with fiber before workouts?"
+      ],
+      "responses": [
+        "Large high-fiber meals immediately before training may cause discomfort for some people; choose what you digest comfortably.",
+        "Sure. Large high-fiber meals immediately before training may cause discomfort for some people; choose what you digest comfortably."
+      ]
+    },
+    {
+      "tag": "hydration_signs",
+      "patterns": [
+        "How can I tell if I need more fluids?",
+        "Tell me about hydration signs",
+        "I want to know about hydration signs",
+        "Can you help me with hydration signs?"
+      ],
+      "responses": [
+        "Thirst, urine color, sweat losses, weather, and exercise duration can provide useful clues.",
+        "Sure. Thirst, urine color, sweat losses, weather, and exercise duration can provide useful clues."
+      ]
+    },
+    {
+      "tag": "sweat_rate",
+      "patterns": [
+        "What is sweat rate?",
+        "Tell me about sweat rate",
+        "I want to know about sweat rate",
+        "Can you help me with sweat rate?"
+      ],
+      "responses": [
+        "Sweat rate estimates how much fluid you lose during exercise and can help personalize hydration.",
+        "Sure. Sweat rate estimates how much fluid you lose during exercise and can help personalize hydration."
+      ]
+    },
+    {
+      "tag": "hot_weather_training",
+      "patterns": [
+        "How should I exercise in hot weather?",
+        "Tell me about hot-weather training",
+        "I want to know about hot-weather training",
+        "Can you help me with hot-weather training?"
+      ],
+      "responses": [
+        "Reduce intensity when needed, acclimatize gradually, hydrate appropriately, and avoid dangerous heat conditions.",
+        "Sure. Reduce intensity when needed, acclimatize gradually, hydrate appropriately, and avoid dangerous heat conditions."
+      ]
+    },
+    {
+      "tag": "cold_weather_training",
+      "patterns": [
+        "How should I exercise in cold weather?",
+        "Tell me about cold-weather training",
+        "I want to know about cold-weather training",
+        "Can you help me with cold-weather training?"
+      ],
+      "responses": [
+        "Dress appropriately, warm up gradually, and adjust the session for conditions and footing.",
+        "Sure. Dress appropriately, warm up gradually, and adjust the session for conditions and footing."
+      ]
+    },
+    {
+      "tag": "humidity_training",
+      "patterns": [
+        "Does humidity affect workouts?",
+        "Tell me about humidity and exercise",
+        "I want to know about humidity and exercise",
+        "Can you help me with humidity and exercise?"
+      ],
+      "responses": [
+        "High humidity can reduce evaporative cooling and make exercise feel harder, so intensity and hydration may need adjustment.",
+        "Sure. High humidity can reduce evaporative cooling and make exercise feel harder, so intensity and hydration may need adjustment."
+      ]
+    },
+    {
+      "tag": "altitude_training",
+      "patterns": [
+        "Does altitude affect exercise?",
+        "Tell me about altitude training",
+        "I want to know about altitude training",
+        "Can you help me with altitude training?"
+      ],
+      "responses": [
+        "Higher altitude can reduce oxygen availability and make exercise feel harder until acclimatization occurs.",
+        "Sure. Higher altitude can reduce oxygen availability and make exercise feel harder until acclimatization occurs."
+      ]
+    },
+    {
+      "tag": "sun_exercise",
+      "patterns": [
+        "How can I exercise safely in strong sun?",
+        "Tell me about sun and exercise",
+        "I want to know about sun and exercise",
+        "Can you help me with sun and exercise?"
+      ],
+      "responses": [
+        "Use shade or cooler times, protect exposed skin, hydrate appropriately, and reduce intensity in extreme heat.",
+        "Sure. Use shade or cooler times, protect exposed skin, hydrate appropriately, and reduce intensity in extreme heat."
+      ]
+    },
+    {
+      "tag": "gym_hygiene",
+      "patterns": [
+        "How can I stay hygienic at the gym?",
+        "Tell me about gym hygiene",
+        "I want to know about gym hygiene",
+        "Can you help me with gym hygiene?"
+      ],
+      "responses": [
+        "Clean shared equipment, wash your hands, use clean clothing, and avoid training when contagious.",
+        "Sure. Clean shared equipment, wash your hands, use clean clothing, and avoid training when contagious."
+      ]
+    },
+    {
+      "tag": "gym_etiquette",
+      "patterns": [
+        "What is good gym etiquette?",
+        "Tell me about gym etiquette",
+        "I want to know about gym etiquette",
+        "Can you help me with gym etiquette?"
+      ],
+      "responses": [
+        "Respect shared equipment, re-rack weights, allow others to work in when appropriate, and keep walkways clear.",
+        "Sure. Respect shared equipment, re-rack weights, allow others to work in when appropriate, and keep walkways clear."
+      ]
+    },
+    {
+      "tag": "workout_music",
+      "patterns": [
+        "Does music help workouts?",
+        "Tell me about workout music",
+        "I want to know about workout music",
+        "Can you help me with workout music?"
+      ],
+      "responses": [
+        "Music can improve enjoyment and perceived motivation for many people during exercise.",
+        "Sure. Music can improve enjoyment and perceived motivation for many people during exercise."
+      ]
+    },
+    {
+      "tag": "fitness_apps",
+      "patterns": [
+        "Can fitness apps help?",
+        "Tell me about fitness apps",
+        "I want to know about fitness apps",
+        "Can you help me with fitness apps?"
+      ],
+      "responses": [
+        "Apps can help track workouts, steps, nutrition, and habits, but they are tools rather than replacements for sound training principles.",
+        "Sure. Apps can help track workouts, steps, nutrition, and habits, but they are tools rather than replacements for sound training principles."
+      ]
+    },
+    {
+      "tag": "fitness_tracker",
+      "patterns": [
+        "Are fitness trackers accurate?",
+        "Tell me about fitness trackers",
+        "I want to know about fitness trackers",
+        "Can you help me with fitness trackers?"
+      ],
+      "responses": [
+        "Trackers can provide useful estimates, but measurements such as calorie burn and sleep stages are not perfectly precise.",
+        "Sure. Trackers can provide useful estimates, but measurements such as calorie burn and sleep stages are not perfectly precise."
+      ]
+    },
+    {
+      "tag": "smartwatch",
+      "patterns": [
+        "Are smartwatches useful for fitness?",
+        "Tell me about smartwatches for fitness",
+        "I want to know about smartwatches for fitness",
+        "Can you help me with smartwatches for fitness?"
+      ],
+      "responses": [
+        "They can help monitor activity, heart rate trends, workouts, and habits, while recognizing that consumer measurements have limitations.",
+        "Sure. They can help monitor activity, heart rate trends, workouts, and habits, while recognizing that consumer measurements have limitations."
+      ]
+    },
+    {
+      "tag": "step_goal",
+      "patterns": [
+        "Should I set a daily step goal?",
+        "Tell me about step goals",
+        "I want to know about step goals",
+        "Can you help me with step goals?"
+      ],
+      "responses": [
+        "A personalized step target can be useful; start from your normal activity and increase gradually.",
+        "Sure. A personalized step target can be useful; start from your normal activity and increase gradually."
+      ]
+    },
+    {
+      "tag": "calorie_tracking",
+      "patterns": [
+        "Should I track calories?",
+        "Tell me about calorie tracking",
+        "I want to know about calorie tracking",
+        "Can you help me with calorie tracking?"
+      ],
+      "responses": [
+        "Calorie tracking can help some people understand intake, but it is optional and should be used in a sustainable way.",
+        "Sure. Calorie tracking can help some people understand intake, but it is optional and should be used in a sustainable way."
+      ]
+    },
+    {
+      "tag": "macro_tracking",
+      "patterns": [
+        "Should I track macros?",
+        "Tell me about macronutrient tracking",
+        "I want to know about macronutrient tracking",
+        "Can you help me with macronutrient tracking?"
+      ],
+      "responses": [
+        "Macro tracking can be useful for specific goals, but a balanced diet can also work without detailed tracking.",
+        "Sure. Macro tracking can be useful for specific goals, but a balanced diet can also work without detailed tracking."
+      ]
+    },
+    {
+      "tag": "portion_control",
+      "patterns": [
+        "How can I control portions?",
+        "Tell me about portion control",
+        "I want to know about portion control",
+        "Can you help me with portion control?"
+      ],
+      "responses": [
+        "Use hunger and fullness cues, balanced meals, reasonable serving sizes, and consistent eating habits.",
+        "Sure. Use hunger and fullness cues, balanced meals, reasonable serving sizes, and consistent eating habits."
+      ]
+    },
+    {
+      "tag": "mindful_eating",
+      "patterns": [
+        "What is mindful eating?",
+        "Tell me about mindful eating",
+        "I want to know about mindful eating",
+        "Can you help me with mindful eating?"
+      ],
+      "responses": [
+        "Mindful eating means paying attention to hunger, fullness, taste, and eating pace.",
+        "Sure. Mindful eating means paying attention to hunger, fullness, taste, and eating pace."
+      ]
+    },
+    {
+      "tag": "cheat_meals",
+      "patterns": [
+        "Are cheat meals necessary?",
+        "Tell me about cheat meals",
+        "I want to know about cheat meals",
+        "Can you help me with cheat meals?"
+      ],
+      "responses": [
+        "No. Planned flexible meals can fit a healthy diet without needing to label foods as rewards or cheats.",
+        "Sure. No. Planned flexible meals can fit a healthy diet without needing to label foods as rewards or cheats."
+      ]
+    },
+    {
+      "tag": "food_cravings",
+      "patterns": [
+        "How can I manage cravings?",
+        "Tell me about food cravings",
+        "I want to know about food cravings",
+        "Can you help me with food cravings?"
+      ],
+      "responses": [
+        "Regular balanced meals, adequate sleep, hydration, and allowing reasonable flexibility can help manage cravings.",
+        "Sure. Regular balanced meals, adequate sleep, hydration, and allowing reasonable flexibility can help manage cravings."
+      ]
+    },
+    {
+      "tag": "late_night_eating",
+      "patterns": [
+        "Is eating late at night bad?",
+        "Tell me about late-night eating",
+        "I want to know about late-night eating",
+        "Can you help me with late-night eating?"
+      ],
+      "responses": [
+        "Meal timing alone does not determine fitness outcomes; total intake, food quality, and personal routine matter.",
+        "Sure. Meal timing alone does not determine fitness outcomes; total intake, food quality, and personal routine matter."
+      ]
+    },
+    {
+      "tag": "breakfast_skip",
+      "patterns": [
+        "Is skipping breakfast bad for fitness?",
+        "Tell me about skipping breakfast",
+        "I want to know about skipping breakfast",
+        "Can you help me with skipping breakfast?"
+      ],
+      "responses": [
+        "Not necessarily. What matters more is your overall nutrition and whether your eating pattern works for you.",
+        "Sure. Not necessarily. What matters more is your overall nutrition and whether your eating pattern works for you."
+      ]
+    },
+    {
+      "tag": "hydration_weight_loss",
+      "patterns": [
+        "Does drinking water help weight loss?",
+        "Tell me about hydration and weight loss",
+        "I want to know about hydration and weight loss",
+        "Can you help me with hydration and weight loss?"
+      ],
+      "responses": [
+        "Water can support hydration and may help fullness when replacing calorie-containing drinks, but it is not a standalone fat-loss method.",
+        "Sure. Water can support hydration and may help fullness when replacing calorie-containing drinks, but it is not a standalone fat-loss method."
+      ]
+    },
+    {
+      "tag": "green_tea_fitness",
+      "patterns": [
+        "Does green tea burn fat?",
+        "Tell me about green tea and fitness",
+        "I want to know about green tea and fitness",
+        "Can you help me with green tea and fitness?"
+      ],
+      "responses": [
+        "Green tea is not a magic fat burner; any effect on energy expenditure is modest.",
+        "Sure. Green tea is not a magic fat burner; any effect on energy expenditure is modest."
+      ]
+    },
+    {
+      "tag": "fat_burning_zone",
+      "patterns": [
+        "What is the fat-burning zone?",
+        "Tell me about fat-burning zone",
+        "I want to know about fat-burning zone",
+        "Can you help me with fat-burning zone?"
+      ],
+      "responses": [
+        "It refers to exercise intensities where a greater proportion of energy comes from fat, but total energy balance matters more for fat loss.",
+        "Sure. It refers to exercise intensities where a greater proportion of energy comes from fat, but total energy balance matters more for fat loss."
+      ]
+    },
+    {
+      "tag": "spot_reduction",
+      "patterns": [
+        "Can I lose belly fat specifically?",
+        "Tell me about spot reduction",
+        "I want to know about spot reduction",
+        "Can you help me with spot reduction?"
+      ],
+      "responses": [
+        "You cannot reliably choose where body fat is lost; overall fat loss and resistance training are more useful approaches.",
+        "Sure. You cannot reliably choose where body fat is lost; overall fat loss and resistance training are more useful approaches."
+      ]
+    },
+    {
+      "tag": "belly_fat",
+      "patterns": [
+        "How can I reduce belly fat?",
+        "Tell me about belly fat",
+        "I want to know about belly fat",
+        "Can you help me with belly fat?"
+      ],
+      "responses": [
+        "Focus on sustainable overall fat loss, strength training, activity, nutrition, and sleep rather than special belly-fat exercises.",
+        "Sure. Focus on sustainable overall fat loss, strength training, activity, nutrition, and sleep rather than special belly-fat exercises."
+      ]
+    },
+    {
+      "tag": "face_fat",
+      "patterns": [
+        "Can exercise reduce face fat?",
+        "Tell me about face fat",
+        "I want to know about face fat",
+        "Can you help me with face fat?"
+      ],
+      "responses": [
+        "Overall body-fat changes can alter facial appearance, but targeted fat loss is not reliably controllable.",
+        "Sure. Overall body-fat changes can alter facial appearance, but targeted fat loss is not reliably controllable."
+      ]
+    },
+    {
+      "tag": "muscle_definition",
+      "patterns": [
+        "How do I get more defined muscles?",
+        "Tell me about muscle definition",
+        "I want to know about muscle definition",
+        "Can you help me with muscle definition?"
+      ],
+      "responses": [
+        "Muscle definition generally comes from building or maintaining muscle while reducing sufficient body fat to reveal it.",
+        "Sure. Muscle definition generally comes from building or maintaining muscle while reducing sufficient body fat to reveal it."
+      ]
+    },
+    {
+      "tag": "lean_bulk",
+      "patterns": [
+        "What is a lean bulk?",
+        "Tell me about lean bulking",
+        "I want to know about lean bulking",
+        "Can you help me with lean bulking?"
+      ],
+      "responses": [
+        "Lean bulking uses a modest calorie surplus with resistance training to support muscle gain while limiting unnecessary fat gain.",
+        "Sure. Lean bulking uses a modest calorie surplus with resistance training to support muscle gain while limiting unnecessary fat gain."
+      ]
+    },
+    {
+      "tag": "cutting",
+      "patterns": [
+        "What does cutting mean?",
+        "Tell me about cutting",
+        "I want to know about cutting",
+        "Can you help me with cutting?"
+      ],
+      "responses": [
+        "Cutting is a period focused on reducing body fat while trying to preserve as much muscle and performance as practical.",
+        "Sure. Cutting is a period focused on reducing body fat while trying to preserve as much muscle and performance as practical."
+      ]
+    },
+    {
+      "tag": "recomp",
+      "patterns": [
+        "What is body recomposition?",
+        "Tell me about body recomposition",
+        "I want to know about body recomposition",
+        "Can you help me with body recomposition?"
+      ],
+      "responses": [
+        "Body recomposition aims to improve the ratio of muscle to fat, often through resistance training and appropriate nutrition.",
+        "Sure. Body recomposition aims to improve the ratio of muscle to fat, often through resistance training and appropriate nutrition."
+      ]
+    },
+    {
+      "tag": "maintenance_phase",
+      "patterns": [
+        "What is a maintenance phase?",
+        "Tell me about maintenance phase",
+        "I want to know about maintenance phase",
+        "Can you help me with maintenance phase?"
+      ],
+      "responses": [
+        "It is a period of eating around estimated energy needs while maintaining training and body weight.",
+        "Sure. It is a period of eating around estimated energy needs while maintaining training and body weight."
+      ]
+    },
+    {
+      "tag": "scale_weight",
+      "patterns": [
+        "Why does my weight fluctuate?",
+        "Tell me about scale weight",
+        "I want to know about scale weight",
+        "Can you help me with scale weight?"
+      ],
+      "responses": [
+        "Daily weight changes can come from water, food volume, glycogen, sodium, hormones, and other normal factors.",
+        "Sure. Daily weight changes can come from water, food volume, glycogen, sodium, hormones, and other normal factors."
+      ]
+    },
+    {
+      "tag": "weighing_frequency",
+      "patterns": [
+        "How often should I weigh myself?",
+        "Tell me about weighing frequency",
+        "I want to know about weighing frequency",
+        "Can you help me with weighing frequency?"
+      ],
+      "responses": [
+        "If weighing is useful for you, consistent conditions and looking at trends are more informative than isolated readings.",
+        "Sure. If weighing is useful for you, consistent conditions and looking at trends are more informative than isolated readings."
+      ]
+    },
+    {
+      "tag": "measurements",
+      "patterns": [
+        "Should I take body measurements?",
+        "Tell me about body measurements",
+        "I want to know about body measurements",
+        "Can you help me with body measurements?"
+      ],
+      "responses": [
+        "Measurements can complement scale weight and performance when tracking body-composition changes.",
+        "Sure. Measurements can complement scale weight and performance when tracking body-composition changes."
+      ]
+    },
+    {
+      "tag": "progress_photos",
+      "patterns": [
+        "Are progress photos useful?",
+        "Tell me about progress photos",
+        "I want to know about progress photos",
+        "Can you help me with progress photos?"
+      ],
+      "responses": [
+        "Consistent progress photos can provide a visual trend that scale weight alone may miss.",
+        "Sure. Consistent progress photos can provide a visual trend that scale weight alone may miss."
+      ]
+    },
+    {
+      "tag": "clothing_fit",
+      "patterns": [
+        "Can clothing fit show fitness progress?",
+        "Tell me about clothing fit",
+        "I want to know about clothing fit",
+        "Can you help me with clothing fit?"
+      ],
+      "responses": [
+        "Yes. Changes in how clothing fits can provide another practical indicator of body-composition change.",
+        "Sure. Yes. Changes in how clothing fits can provide another practical indicator of body-composition change."
+      ]
+    },
+    {
+      "tag": "strength_progress",
+      "patterns": [
+        "How do I know I am getting stronger?",
+        "Tell me about strength progress",
+        "I want to know about strength progress",
+        "Can you help me with strength progress?"
+      ],
+      "responses": [
+        "Improved repetitions, resistance, technique, control, or exercise difficulty can all indicate strength progress.",
+        "Sure. Improved repetitions, resistance, technique, control, or exercise difficulty can all indicate strength progress."
+      ]
+    },
+    {
+      "tag": "endurance_progress",
+      "patterns": [
+        "How do I know my endurance is improving?",
+        "Tell me about endurance progress",
+        "I want to know about endurance progress",
+        "Can you help me with endurance progress?"
+      ],
+      "responses": [
+        "Longer duration, faster pace at the same effort, or easier recovery can indicate improved endurance.",
+        "Sure. Longer duration, faster pace at the same effort, or easier recovery can indicate improved endurance."
+      ]
+    },
+    {
+      "tag": "mobility_progress",
+      "patterns": [
+        "How do I measure mobility progress?",
+        "Tell me about mobility progress",
+        "I want to know about mobility progress",
+        "Can you help me with mobility progress?"
+      ],
+      "responses": [
+        "Use repeatable movement tests and compare comfortable range and control over time.",
+        "Sure. Use repeatable movement tests and compare comfortable range and control over time."
+      ]
+    },
+    {
+      "tag": "flexibility_progress",
+      "patterns": [
+        "How do I track flexibility?",
+        "Tell me about flexibility progress",
+        "I want to know about flexibility progress",
+        "Can you help me with flexibility progress?"
+      ],
+      "responses": [
+        "Use consistent flexibility tests and record comfortable range of motion over time.",
+        "Sure. Use consistent flexibility tests and record comfortable range of motion over time."
+      ]
+    },
+    {
+      "tag": "balance_progress",
+      "patterns": [
+        "How do I track balance?",
+        "Tell me about balance progress",
+        "I want to know about balance progress",
+        "Can you help me with balance progress?"
+      ],
+      "responses": [
+        "Use repeatable balance tasks such as controlled single-leg standing and monitor time and stability.",
+        "Sure. Use repeatable balance tasks such as controlled single-leg standing and monitor time and stability."
+      ]
+    },
+    {
+      "tag": "beginner_cardio",
+      "patterns": [
+        "What cardio is best for beginners?",
+        "Tell me about beginner cardio",
+        "I want to know about beginner cardio",
+        "Can you help me with beginner cardio?"
+      ],
+      "responses": [
+        "Walking, cycling, swimming, and easy elliptical sessions are accessible options for many beginners.",
+        "Sure. Walking, cycling, swimming, and easy elliptical sessions are accessible options for many beginners."
+      ]
+    },
+    {
+      "tag": "low_impact_cardio",
+      "patterns": [
+        "What are low-impact cardio options?",
+        "Tell me about low-impact cardio",
+        "I want to know about low-impact cardio",
+        "Can you help me with low-impact cardio?"
+      ],
+      "responses": [
+        "Walking, cycling, swimming, and elliptical training are common low-impact choices.",
+        "Sure. Walking, cycling, swimming, and elliptical training are common low-impact choices."
+      ]
+    }
+  ]
+}
